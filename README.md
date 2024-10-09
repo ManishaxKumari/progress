@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/ManishaxKumari/progress/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0088-merge-sorted-array) |
 | [0137-single-number-ii](https://github.com/ManishaxKumari/progress/tree/master/0137-single-number-ii) |
+| [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 | [0485-max-consecutive-ones](https://github.com/ManishaxKumari/progress/tree/master/0485-max-consecutive-ones) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Sliding Window
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/ManishaxKumari/progress/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/ManishaxKumari/progress/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/ManishaxKumari/progress/tree/master/0013-roman-to-integer) |
+| [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/ManishaxKumari/progress/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ManishaxKumari/progress/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 ## Sorting
 |  |
 | ------- |
