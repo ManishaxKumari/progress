@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0485-max-consecutive-ones](https://github.com/ManishaxKumari/progress/tree/master/0485-max-consecutive-ones) |
+| [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2058-concatenation-of-array](https://github.com/ManishaxKumari/progress/tree/master/2058-concatenation-of-array) |
 ## Sliding Window
