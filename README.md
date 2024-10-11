@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [0485-max-consecutive-ones](https://github.com/ManishaxKumari/progress/tree/master/0485-max-consecutive-ones) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ManishaxKumari/progress/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 ## String
 |  |
 | ------- |
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/ManishaxKumari/progress/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ManishaxKumari/progress/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
+| [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 ## Sorting
 |  |
 | ------- |
@@ -70,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ManishaxKumari/progress/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -108,4 +112,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 <!---LeetCode Topics End-->
