@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
 | [0205-isomorphic-strings](https://github.com/ManishaxKumari/progress/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ManishaxKumari/progress/tree/master/0242-valid-anagram) |
+| [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 ## Stack
 |  |
 | ------- |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/ManishaxKumari/progress/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
+| [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 ## Sorting
 |  |
 | ------- |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
+| [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 ## Backtracking
 |  |
 | ------- |
