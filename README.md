@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/ManishaxKumari/progress/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ManishaxKumari/progress/tree/master/0137-single-number-ii) |
+| [0191-number-of-1-bits](https://github.com/ManishaxKumari/progress/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0461-hamming-distance](https://github.com/ManishaxKumari/progress/tree/master/0461-hamming-distance) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ManishaxKumari/progress/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -162,4 +163,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/ManishaxKumari/progress/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ManishaxKumari/progress/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0104-maximum-depth-of-binary-tree) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0191-number-of-1-bits](https://github.com/ManishaxKumari/progress/tree/master/0191-number-of-1-bits) |
 <!---LeetCode Topics End-->
