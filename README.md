@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/ManishaxKumari/progress/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/ManishaxKumari/progress/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/ManishaxKumari/progress/tree/master/0013-roman-to-integer) |
+| [0069-sqrtx](https://github.com/ManishaxKumari/progress/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 | [0231-power-of-two](https://github.com/ManishaxKumari/progress/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/ManishaxKumari/progress/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/ManishaxKumari/progress/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
