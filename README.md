@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/ManishaxKumari/progress/tree/master/0027-remove-element) |
+| [0035-search-insert-position](https://github.com/ManishaxKumari/progress/tree/master/0035-search-insert-position) |
 | [0073-set-matrix-zeroes](https://github.com/ManishaxKumari/progress/tree/master/0073-set-matrix-zeroes) |
 | [0088-merge-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/ManishaxKumari/progress/tree/master/0128-longest-consecutive-sequence) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/ManishaxKumari/progress/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
