@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ManishaxKumari/progress/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2058-concatenation-of-array](https://github.com/ManishaxKumari/progress/tree/master/2058-concatenation-of-array) |
 ## Sliding Window
 |  |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ManishaxKumari/progress/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Breadth-First Search
 |  |
 | ------- |
