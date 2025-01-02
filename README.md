@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ManishaxKumari/progress/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2058-concatenation-of-array](https://github.com/ManishaxKumari/progress/tree/master/2058-concatenation-of-array) |
+| [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
 ## Sliding Window
 |  |
 | ------- |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/ManishaxKumari/progress/tree/master/0073-set-matrix-zeroes) |
+| [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
 ## Union Find
 |  |
 | ------- |
