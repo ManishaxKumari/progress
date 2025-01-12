@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/ManishaxKumari/progress/tree/master/0027-remove-element) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/ManishaxKumari/progress/tree/master/0035-search-insert-position) |
+| [0054-spiral-matrix](https://github.com/ManishaxKumari/progress/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ManishaxKumari/progress/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ManishaxKumari/progress/tree/master/0074-search-a-2d-matrix) |
 | [0088-merge-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0088-merge-sorted-array) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ManishaxKumari/progress/tree/master/0054-spiral-matrix) |
 | [2058-concatenation-of-array](https://github.com/ManishaxKumari/progress/tree/master/2058-concatenation-of-array) |
 ## Binary Search
 |  |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ManishaxKumari/progress/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/ManishaxKumari/progress/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ManishaxKumari/progress/tree/master/0074-search-a-2d-matrix) |
 | [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
