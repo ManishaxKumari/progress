@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2058-concatenation-of-array](https://github.com/ManishaxKumari/progress/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ManishaxKumari/progress/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Sliding Window
 |  |
 | ------- |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## String
 |  |
 | ------- |
@@ -135,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0461-hamming-distance](https://github.com/ManishaxKumari/progress/tree/master/0461-hamming-distance) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ManishaxKumari/progress/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Linked List
 |  |
 | ------- |
