@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/ManishaxKumari/progress/tree/master/0074-search-a-2d-matrix) |
 | [0088-merge-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/ManishaxKumari/progress/tree/master/0118-pascals-triangle) |
+| [0119-pascals-triangle-ii](https://github.com/ManishaxKumari/progress/tree/master/0119-pascals-triangle-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/ManishaxKumari/progress/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/ManishaxKumari/progress/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ManishaxKumari/progress/tree/master/0137-single-number-ii) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/ManishaxKumari/progress/tree/master/0118-pascals-triangle) |
+| [0119-pascals-triangle-ii](https://github.com/ManishaxKumari/progress/tree/master/0119-pascals-triangle-ii) |
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 ## Backtracking
