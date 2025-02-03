@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2271-rearrange-array-elements-by-sign](https://github.com/ManishaxKumari/progress/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ManishaxKumari/progress/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/ManishaxKumari/progress/tree/master/3429-special-array-i) |
 ## Sliding Window
 |  |
