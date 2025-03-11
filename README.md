@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/ManishaxKumari/progress/tree/master/0137-single-number-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/ManishaxKumari/progress/tree/master/0162-find-peak-element) |
+| [0169-majority-element](https://github.com/ManishaxKumari/progress/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ManishaxKumari/progress/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ManishaxKumari/progress/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/ManishaxKumari/progress/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ManishaxKumari/progress/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/ManishaxKumari/progress/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/ManishaxKumari/progress/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ManishaxKumari/progress/tree/master/0242-valid-anagram) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/ManishaxKumari/progress/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/ManishaxKumari/progress/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ManishaxKumari/progress/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
@@ -268,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ManishaxKumari/progress/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/ManishaxKumari/progress/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/ManishaxKumari/progress/tree/master/0191-number-of-1-bits) |
 ## Recursion
 |  |
@@ -306,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/ManishaxKumari/progress/tree/master/0169-majority-element) |
 | [1364-tuple-with-same-product](https://github.com/ManishaxKumari/progress/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ManishaxKumari/progress/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2448-count-number-of-bad-pairs](https://github.com/ManishaxKumari/progress/tree/master/2448-count-number-of-bad-pairs) |
