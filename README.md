@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0384-shuffle-an-array](https://github.com/ManishaxKumari/progress/tree/master/0384-shuffle-an-array) |
 | [0441-arranging-coins](https://github.com/ManishaxKumari/progress/tree/master/0441-arranging-coins) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ManishaxKumari/progress/tree/master/0628-maximum-product-of-three-numbers) |
+| [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ManishaxKumari/progress/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2448-count-number-of-bad-pairs](https://github.com/ManishaxKumari/progress/tree/master/2448-count-number-of-bad-pairs) |
 ## Hash Table
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/ManishaxKumari/progress/tree/master/0119-pascals-triangle-ii) |
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
+| [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/ManishaxKumari/progress/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/ManishaxKumari/progress/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ManishaxKumari/progress/tree/master/0231-power-of-two) |
+| [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 ## Matrix
 |  |
 | ------- |
@@ -350,4 +353,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
