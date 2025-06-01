@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ManishaxKumari/progress/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2448-count-number-of-bad-pairs](https://github.com/ManishaxKumari/progress/tree/master/2448-count-number-of-bad-pairs) |
+| [3201-distribute-candies-among-children-ii](https://github.com/ManishaxKumari/progress/tree/master/3201-distribute-candies-among-children-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -387,4 +388,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0503-next-greater-element-ii) |
+## Combinatorics
+|  |
+| ------- |
+| [3201-distribute-candies-among-children-ii](https://github.com/ManishaxKumari/progress/tree/master/3201-distribute-candies-among-children-ii) |
+## Enumeration
+|  |
+| ------- |
+| [3201-distribute-candies-among-children-ii](https://github.com/ManishaxKumari/progress/tree/master/3201-distribute-candies-among-children-ii) |
 <!---LeetCode Topics End-->
