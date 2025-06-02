@@ -11,15 +11,17 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        //basecase
-        if(head==nullptr || head->next==nullptr){
-            return head;
-        }
-        ListNode* newhead=reverseList(head->next);
-        ListNode* front=head->next;
-        front->next = head;
-        head->next = NULL;
-        return newhead;
+        ListNode* prev=nullptr;
+        ListNode* curr=head;
+         while(curr !=nullptr){
+            ListNode* temp=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=temp;
 
+         }
+         return prev;
     }
 };
+
+//isme 3 pointer use karege -> prev-> nullptr,curr->head,temp-> curr->next,
