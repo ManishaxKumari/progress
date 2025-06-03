@@ -59,7 +59,7 @@ public:
         ListNode* second = newHead; 
         while(second != nullptr){
             if(first->val != second->val){
-                reverseLL(newHead);
+                reverseLL(newHead); // here is it imp???? yes in production level / interview because kahi per input change nhi karna hoota 
                 return false;
             }
             first = first->next;
