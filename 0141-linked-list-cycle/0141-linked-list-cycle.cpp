@@ -6,13 +6,13 @@ public:
         }
         ListNode* slow = head;
         ListNode* fast = head->next;
-        while (fast != slow) {
-            if (fast->next == NULL || fast->next->next == NULL) {
-                return false;
-            }
+        while (fast != nullptr && fast->next != nullptr) {
             slow = slow->next;
             fast = fast->next->next;
+            if (slow == fast) {
+                return true;
+            }
         }
-        return true;
+        return false;
     }
 };
