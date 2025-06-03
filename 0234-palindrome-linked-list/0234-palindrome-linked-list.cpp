@@ -59,13 +59,13 @@ public:
         ListNode* second = newHead; 
         while(second != nullptr){
             if(first->val != second->val){
-                //reverseLL(newHead);
+                reverseLL(newHead);
                 return false;
             }
             first = first->next;
             second = second->next;
         }
-        //reverseLL(newHead);
+        reverseLL(newHead);
         return true;
 
 
