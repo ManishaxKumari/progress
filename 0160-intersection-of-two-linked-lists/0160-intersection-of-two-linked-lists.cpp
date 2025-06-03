@@ -8,18 +8,32 @@
  */
 class Solution {
 public:
+      ListNode* colPoint(ListNode *smallHead, ListNode *longHead, int len){
+        ListNode *temp1=smallHead;
+        ListNode *temp2=longHead;
+        for(int i=0;i<len;i++){
+            temp2=temp2->next;
+        }
+        while(temp1 != temp2) {
+            temp1 = temp1-> next;
+            temp2 = temp2-> next;
+        }
+        return temp1;
+
+    }
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-     unordered_set<ListNode*>st;
-        while(headA != nullptr){
-            st.insert(headA);
-            headA=headA->next;
+      ListNode* temp1=headA;
+        ListNode* temp2=headB;
+        int l1=0,l2=0;
+        while(temp1 != nullptr){
+            l1++;
+            temp1=temp1->next;
         }
-        while(headB !=nullptr){
-            if(st.find(headB) != st.end()){
-                return headB;
-            }
-            headB=headB->next;
+         while(temp2 != nullptr){
+            l2++;
+            temp2=temp2->next;
         }
-        return nullptr;
+        if(l1<l2) return colPoint(headA,headB,l2-l1);
+        return colPoint(headB,headA,l1-l2);
     }
 };
