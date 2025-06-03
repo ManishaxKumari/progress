@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool hasCycle(ListNode* head) {
-        if (head == NULL || head->next == NULL || head->next->next==nullptr) {
+        if (head == NULL || head->next == NULL) {
             return false; 
         }
         ListNode* slow = head;
