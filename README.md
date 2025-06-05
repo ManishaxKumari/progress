@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0384-shuffle-an-array](https://github.com/ManishaxKumari/progress/tree/master/0384-shuffle-an-array) |
 | [0441-arranging-coins](https://github.com/ManishaxKumari/progress/tree/master/0441-arranging-coins) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ManishaxKumari/progress/tree/master/0628-maximum-product-of-three-numbers) |
+| [0795-k-th-symbol-in-grammar](https://github.com/ManishaxKumari/progress/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ManishaxKumari/progress/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2448-count-number-of-bad-pairs](https://github.com/ManishaxKumari/progress/tree/master/2448-count-number-of-bad-pairs) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/ManishaxKumari/progress/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0461-hamming-distance](https://github.com/ManishaxKumari/progress/tree/master/0461-hamming-distance) |
+| [0795-k-th-symbol-in-grammar](https://github.com/ManishaxKumari/progress/tree/master/0795-k-th-symbol-in-grammar) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/ManishaxKumari/progress/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Linked List
@@ -329,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/ManishaxKumari/progress/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/ManishaxKumari/progress/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/ManishaxKumari/progress/tree/master/0234-palindrome-linked-list) |
+| [0795-k-th-symbol-in-grammar](https://github.com/ManishaxKumari/progress/tree/master/0795-k-th-symbol-in-grammar) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 ## Matrix
 |  |
