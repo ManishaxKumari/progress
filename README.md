@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/ManishaxKumari/progress/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ManishaxKumari/progress/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ManishaxKumari/progress/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Stack
 |  |
 | ------- |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1019-squares-of-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/1019-squares-of-a-sorted-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/ManishaxKumari/progress/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ManishaxKumari/progress/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Sorting
 |  |
 | ------- |
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3199-distribute-candies-among-children-i](https://github.com/ManishaxKumari/progress/tree/master/3199-distribute-candies-among-children-i) |
 | [3201-distribute-candies-among-children-ii](https://github.com/ManishaxKumari/progress/tree/master/3201-distribute-candies-among-children-ii) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ManishaxKumari/progress/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Graph
 |  |
 | ------- |
