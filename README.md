@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/ManishaxKumari/progress/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ManishaxKumari/progress/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## String
 |  |
 | ------- |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/ManishaxKumari/progress/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ManishaxKumari/progress/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/ManishaxKumari/progress/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ManishaxKumari/progress/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Stack
 |  |
@@ -159,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0503-next-greater-element-ii) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/ManishaxKumari/progress/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Two Pointers
 |  |
 | ------- |
@@ -359,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/ManishaxKumari/progress/tree/master/0605-can-place-flowers) |
 | [0890-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0890-lemonade-change) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/ManishaxKumari/progress/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Design
 |  |
 | ------- |
@@ -381,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
 | [2434-design-a-number-container-system](https://github.com/ManishaxKumari/progress/tree/master/2434-design-a-number-container-system) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Ordered Set
 |  |
 | ------- |
