@@ -1,22 +1,21 @@
 class Solution {
-private:
-    void func(int ind, int n, vector<int> &nums, vector<int> &arr, vector<vector<int>> &ans) {
-        if (ind == n) {
-            ans.push_back(arr);
+public:
+    void func(vector<int>& nums,int i,vector<int> &v,vector<vector<int>> &ans,int n){
+        //base case
+        if(i>=n){
+            ans.push_back(v);
             return;
         }
-        
-        arr.push_back(nums[ind]);
-        func(ind + 1, n, nums, arr, ans);
-        arr.pop_back();
-        func(ind + 1, n, nums, arr, ans);
+        v.push_back(nums[i]);
+        func(nums,i+1,v,ans,n);
+        v.pop_back();
+        func(nums,i+1,v,ans,n);
     }
 
-public:
-    vector<vector<int>> subsets(vector<int> &nums) {
+    vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
-        vector<int> arr;
-        func(0, nums.size(), nums, arr, ans);
+        vector<int>v;
+        func(nums,0,v,ans,nums.size());
         return ans;
     }
 };
