@@ -13,7 +13,7 @@ class Solution {
 public:
 
      int height(TreeNode* root){
-        if(root==NULL){
+        if(root==NULL){ 
             return 0;
         }
         int left=height(root->left);
