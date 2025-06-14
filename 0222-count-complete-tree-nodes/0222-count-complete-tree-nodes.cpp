@@ -37,7 +37,7 @@ public:
         }
         int l=getleftheight(root);
         int r=getrightheight(root);
-        if(l==r) return (1 << l) - 1;
+        if(l==r) return (pow(2,r)- 1);
         return countNodes(root->left) + countNodes(root->right)+1;
     }
 };
