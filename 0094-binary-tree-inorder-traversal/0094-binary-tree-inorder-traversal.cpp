@@ -11,20 +11,27 @@
  */
 class Solution {
 public:
-    void ans(vector<int> &res,TreeNode* root){
-        if(root==NULL) {
-            return;
-        }
-        ans(res,root->left);
-        res.push_back(root->val);
-        ans(res,root->right);
-        
-        
-    }
-
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int>res;
-        ans(res,root);
+        vector<int> res;
+        TreeNode* curr=root;
+        while(curr!=nullptr){
+            if(curr->left == nullptr){
+                res.push_back(curr->val);
+                curr=curr->right;
+            }
+            else{
+                TreeNode* leftchild=curr->left;
+                while(leftchild->right !=nullptr){
+                    leftchild=leftchild->right;
+                }
+                leftchild->right=curr;
+                //curr->left ko NULL mark kar do (delete) kar sakte ho
+                TreeNode* temp=curr;
+                curr=curr->left;
+                temp->left=NULL;
+            }
+        }
         return res;
+
     }
 };
