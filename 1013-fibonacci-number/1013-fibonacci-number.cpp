@@ -1,5 +1,6 @@
 class Solution {
 public:
+//solve by recursion + memoization(storage of prev ans) = dp!!
     int func(int n,vector<int> &dp){
         if(n<=1) return n;
         if(dp[n] != -1) return dp[n];
