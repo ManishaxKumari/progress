@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [0384-shuffle-an-array](https://github.com/ManishaxKumari/progress/tree/master/0384-shuffle-an-array) |
+| [0416-partition-equal-subset-sum](https://github.com/ManishaxKumari/progress/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/ManishaxKumari/progress/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ManishaxKumari/progress/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/ManishaxKumari/progress/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
 | [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/ManishaxKumari/progress/tree/master/0416-partition-equal-subset-sum) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 ## Backtracking
 |  |
