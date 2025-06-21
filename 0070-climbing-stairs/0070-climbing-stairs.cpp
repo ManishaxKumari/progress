@@ -1,5 +1,6 @@
 class Solution {
 public:
+//memo
     // int func(int n,vector<int> &dp){
     //     if(n<0) return 0;
     //     if(n==0) return 1;
@@ -13,7 +14,7 @@ public:
     //     return func(n,dp);
     // }
 
-
+//tabulation
     int climbStairs(int n){
         vector<int> dp(n+1);
         dp[0]=1;
@@ -24,6 +25,19 @@ public:
         return dp[n];
 
     }
+//space optimization
+
+    // int climbStairs(int n) {
+    //     int prev2 = 1;
+    //     int prev = 1;
+    //     for (int i = 2; i <= n; i++) {
+    //         int cur_i = prev2 + prev;
+    //         prev2 = prev;
+    //         prev = cur_i;
+    //     }
+    //     return prev;
+
+    // }
 
 
 
