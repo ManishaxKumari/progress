@@ -1,34 +1,25 @@
 class Solution {
 public:
-    int func(vector<int>& arr,int n,int ind,int buy,int trans,vector<vector<vector<int>>> &dp){
-        //base case
-        if(ind==n || trans==0){
-            return 0;
-        }
-        int maxp=0;
-        //buy nhi kiya abhi tak ab karo
-        if(dp[ind][buy][trans] !=-1){
-            return dp[ind][buy][trans];
-        }
-        if(buy==0){
-            int buyIt=(-1)*arr[ind] + func(arr,n,ind+1,1,trans,dp);
-            int NotBuy=func(arr,n,ind+1,0,trans,dp);
-            maxp=max(buyIt,NotBuy);
-        }
-        // buy kar liya ab sell karo
-        if(buy==1){
-            int sell=arr[ind] + func(arr,n,ind+1,0,trans-1,dp);
-            int Notsell=func(arr,n,ind+1,1,trans,dp);
-            maxp=max(sell,Notsell);
-        }
-        return dp[ind][buy][trans]=maxp;
-
-    }
     int maxProfit(vector<int>& arr) {
         int n=arr.size();
-        vector<vector<vector<int>>> dp(n,vector<vector<int>>(2,vector<int>(3,-1)));
         if(n==0) return 0;
-        int ans=func(arr,n,0,0,2,dp);
-        return ans;
+        vector<vector<vector<int>>> dp(n+1,vector<vector<int>>(2,vector<int>(3,0)));
+        for(int i=n-1;i>=0;i--){
+            for(int j=0;j<2;j++){
+                for(int k=1;k<3;k++){
+                    if(j==0){
+                        int buy=(-1)*arr[i] + dp[i+1][1][k];
+                        int notbuy=dp[i+1][0][k];
+                        dp[i][j][k]=max(buy,notbuy);
+                    }
+                    if(j==1){
+                        int sell=arr[i] + dp[i+1][0][k-1];
+                        int notsell=dp[i+1][1][k];
+                        dp[i][j][k]=max(sell,notsell);
+                    }
+                }
+            }
+        }
+        return dp[0][0][2];
     }
 };
