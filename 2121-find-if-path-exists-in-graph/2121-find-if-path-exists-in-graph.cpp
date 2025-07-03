@@ -1,13 +1,5 @@
 class Solution {
 public:
-    void dfs(int node,vector<vector<int>> &adj, vector<int> &vis){
-        vis[node]=1;
-        for(auto it : adj[node]){
-            if(!vis[it]){
-                dfs(it,adj,vis);
-            }
-        }
-    }
 
     bool validPath(int n, vector<vector<int>>& edges, int source, int destination) {
         // mistake-> n is no. of nodes and in loop we write total number of realtions
@@ -20,8 +12,19 @@ public:
 
         //create visited array
         vector<int> vis(n,0);
-        dfs(source,adj,vis);
-        return vis[destination]==1;
-
+        queue<int> q;
+        q.push(source);
+        vis[source]=1;
+        while(!q.empty()){
+            int node=q.front();
+            q.pop();
+            for(auto it : adj[node]){
+                if(!vis[it]){
+                    vis[it]=1;
+                    q.push(it);
+                }
+            }
+        }
+        return vis[destination];
     }
 };
