@@ -1,30 +1,25 @@
 class Solution {
-private:
-    vector<int> delRow = {-1, 0, 1, 0};
-    vector<int> delCol = {0, 1, 0, -1};
-    bool isValid(int &i, int &j, int &n, int &m) {
-        if(i < 0 || i >= n) return false;
-        if(j < 0 || j >= m) return false;
-        return true;
-    }
-    void dfs(int row, int col, vector<vector<int>>&ans,vector<vector<int>>& image, int newColor,int iniColor) {
-        ans[row][col] = newColor; 
-        int n = image.size();
-        int m = image[0].size(); 
-        for(int i=0; i < 4; i++) {
-            int nrow = row + delRow[i]; 
-            int ncol = col + delCol[i]; 
-            if(isValid(nrow, ncol, n, m) && 
-               image[nrow][ncol] == iniColor && ans[nrow][ncol] != newColor) {
-                dfs(nrow, ncol, ans, image,newColor, iniColor); 
-            }
-        }
-    }
 public:
+    void dfs(vector<vector<int>>& image, int i, int j, int color, int originalColor) {
+        int m = image.size();
+        int n = image[0].size();
+        if (i < 0 || i >= m || j < 0 || j >= n || image[i][j] != originalColor){
+                  return;
+        }
+        image[i][j] = color;
+        dfs(image, i + 1, j, color, originalColor); // down
+        dfs(image, i - 1, j, color, originalColor); // up
+        dfs(image, i, j + 1, color, originalColor); // right
+        dfs(image, i, j - 1, color, originalColor); // left
+    }
+
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int iniColor = image[sr][sc]; 
-        vector<vector<int>> ans = image; 
-        dfs(sr, sc, ans, image, color, iniColor); 
-        return ans; 
+        int originalColor = image[sr][sc];
+        // Edge Case — If color is already same, return image
+        if (originalColor == color){
+            return image;
+        }
+        dfs(image, sr, sc, color, originalColor);
+        return image;
     }
 };
