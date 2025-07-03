@@ -17,7 +17,9 @@ public:
         vis[source]=1;
         while(!q.empty()){
             int node=q.front();
+            vis[node]=1;
             q.pop();
+            if(node==destination) return true;
             for(auto it : adj[node]){
                 if(!vis[it]){
                     vis[it]=1;
@@ -25,6 +27,6 @@ public:
                 }
             }
         }
-        return vis[destination];
+        return false;
     }
 };
