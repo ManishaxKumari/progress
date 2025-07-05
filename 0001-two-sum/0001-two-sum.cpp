@@ -9,7 +9,6 @@ public:
                 if(sum==target){
                     return {i,j};
                 }
-                sum=0;
             }
         }
         return {};
