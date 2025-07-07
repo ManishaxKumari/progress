@@ -1,19 +1,26 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int,int>mpp;
         int n=nums.size();
-        vector<int> ans;
-        for(int i=0;i<n;i++){
-            int more=target-nums[i];
-            if(mpp.find(more)!=mpp.end()){
-                ans.push_back(i+1);
-                ans.push_back(mpp[more]+1);
-                sort(ans.begin(),ans.end());
-                return ans;
+        int l=0;
+        int r=n-1;
+        int sum=0;
+        while(l<r){
+            sum=nums[l]+nums[r];
+            if(sum==target){
+                // +1 for 1-based indexing
+                return {l+1,r+1};
             }
-            mpp[nums[i]]=i;
+            else if(sum>target){
+                //decrease kro
+                r--;
+            }
+            else if(sum<target){
+                //increase kro
+                l++;
+            }
         }
-        return {};
+        return {-1,-1}; // if not found
+
     }
 };
