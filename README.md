@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0941-sort-array-by-parity](https://github.com/ManishaxKumari/progress/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
 | [1019-squares-of-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/1019-squares-of-a-sorted-array) |
+| [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1364-tuple-with-same-product](https://github.com/ManishaxKumari/progress/tree/master/1364-tuple-with-same-product) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ManishaxKumari/progress/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -326,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ManishaxKumari/progress/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
@@ -391,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/ManishaxKumari/progress/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ManishaxKumari/progress/tree/master/2121-find-if-path-exists-in-graph) |
 ## Divide and Conquer
@@ -423,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ManishaxKumari/progress/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/ManishaxKumari/progress/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
+| [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
 ## Union Find
 |  |
@@ -431,6 +435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ManishaxKumari/progress/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ManishaxKumari/progress/tree/master/0547-number-of-provinces) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/ManishaxKumari/progress/tree/master/1058-lexicographically-smallest-equivalent-string) |
+| [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ManishaxKumari/progress/tree/master/2121-find-if-path-exists-in-graph) |
 ## Greedy
 |  |
