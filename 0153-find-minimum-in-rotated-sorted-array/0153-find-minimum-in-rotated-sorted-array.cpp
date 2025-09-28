@@ -11,12 +11,11 @@ public:
         int ans=INT_MAX;
         while(low<=high){
             int mid=low+(high-low)/2;
-            //which part is sorted
-            if(nums[low]<=nums[mid]){//left sorted
+            if(nums[low]<=nums[mid]){// if left sorted-> store min-> and eliminate
                 ans=min(ans,nums[low]);
                 low=mid+1;
             }
-            else{
+            else{// if right part is sorted-> store mnin->eliminate
                 ans=min(ans,nums[mid]);
                 high=mid-1;
             }
