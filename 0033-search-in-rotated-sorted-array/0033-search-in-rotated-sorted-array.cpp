@@ -9,16 +9,16 @@ public:
             if(nums[mid]==target){
                 return mid;
             }
-            else if(nums[low]<=nums[mid]){ //check left side sorted or not
-                if(nums[low]<=target && target <=nums[mid]){ // is ele present in sorted left part
+            else if(nums[low]<=nums[mid]){ // if left part is sorted and right unsorted
+                if(nums[low]<=target && target <=nums[mid]){ // ele present in sorted part->left
                     high=mid-1;
                 }
-                else{
+                else{// ele present in sorted part->right
                     low=mid+1;
                 }
             }
-            else{ // right side sorted
-                if(nums[mid]<=target && target<=nums[high]){//ele present in sorted part right side
+            else{// is right part is sorted and left unsorted
+                if(nums[mid]<=target && target<=nums[high]){ // le present in sorted part->right
                     low=mid+1;
                 }
                 else{
