@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0326-power-of-three](https://github.com/ManishaxKumari/progress/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/ManishaxKumari/progress/tree/master/0342-power-of-four) |
+| [0367-valid-perfect-square](https://github.com/ManishaxKumari/progress/tree/master/0367-valid-perfect-square) |
 | [0384-shuffle-an-array](https://github.com/ManishaxKumari/progress/tree/master/0384-shuffle-an-array) |
 | [0441-arranging-coins](https://github.com/ManishaxKumari/progress/tree/master/0441-arranging-coins) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ManishaxKumari/progress/tree/master/0628-maximum-product-of-three-numbers) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/ManishaxKumari/progress/tree/master/0275-h-index-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
+| [0367-valid-perfect-square](https://github.com/ManishaxKumari/progress/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/ManishaxKumari/progress/tree/master/0374-guess-number-higher-or-lower) |
 | [0441-arranging-coins](https://github.com/ManishaxKumari/progress/tree/master/0441-arranging-coins) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0540-single-element-in-a-sorted-array) |
