@@ -1,17 +1,27 @@
 class Solution {
 public:
-    int mySqrt(int x) {
-        long long low=1,high=x;
-        while(low<=high){
-        long long mid=(low+high)/2;
+    bool ispossible( long long mid,int x){
         long long num=mid*mid;
-        if(num <=x){
-            low=mid+1;
+        if(num<=x){
+            return true;
         }
-        else{
-            high=mid-1;
-        }
-      }
-      return high;
+        return false;
     }
+    int mySqrt(int x) {
+        long long low=1;
+        long long high=x;
+        int ans=0;
+        while(low<=high){
+            long long mid=(low+high)/2;
+            if(ispossible(mid,x)){
+                ans=mid;
+                low=mid+1; // ye ans possible h but or higher sidr jaker dekho
+            }
+            else{
+                high=mid-1; // left side jao bhut bada ho gya mid
+            }
+        }
+        return ans;
+    }
+    
 };
