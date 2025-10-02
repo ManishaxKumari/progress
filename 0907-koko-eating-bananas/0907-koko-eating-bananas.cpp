@@ -1,33 +1,21 @@
 class Solution {
-public:
-
-   bool possible(vector<int> piles,int hour,int h){
-       int n=piles.size();
-       long long hr=0;
-       for(int i=0;i<n;i++){
-         hr=hr+ceil((double)(piles[i])/(double)(hour));
-       }
-        return hr<=h;
-       
-    }
-
-    int minEatingSpeed(vector<int>& piles, int h) {
+private:
+    long long ispossible(vector<int>& piles,int mid){
         int n=piles.size();
-
-        //find low and high
-        int maxi=INT_MIN;
+        long long sum=0;
         for(int i=0;i<n;i++){
-            maxi=max(piles[i],maxi);
+            sum=sum+ceil((double)piles[i]/(double)mid);
         }
+        return sum;
+    }
+public:
+    int minEatingSpeed(vector<int>& piles, int h) {
         int low=1;
-        int high=maxi;
-
-        //binary serach
-
+        int high=*max_element(piles.begin(),piles.end());
         while(low<=high){
-            int mid = low + (high - low) / 2;
-            
-            if(possible(piles,mid,h)){
+            int mid=low+(high-low)/2;
+            long long hr=ispossible(piles,mid);
+            if(hr<=(long long)h){
                 high=mid-1;
             }
             else{
