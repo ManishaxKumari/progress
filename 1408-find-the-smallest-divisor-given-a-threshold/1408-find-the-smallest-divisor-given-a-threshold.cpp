@@ -7,22 +7,21 @@ private:
             sum=sum+ceil((double)nums[i]/(double)mid);
         }
         return sum;
-
     }
 public:
     int smallestDivisor(vector<int>& nums, int threshold) {
-        int low=1;
-        int high=*max_element(nums.begin(),nums.end());
-        while(low<=high){
+       int low=1;
+       int high=*max_element(nums.begin(),nums.end());
+       while(low<=high){
             int mid=(low+high)/2;
-            int sum=ispossible(nums,mid);
-            if(sum<=threshold){
+            int res=ispossible(nums,mid);
+            if(res<=threshold){
                 high=mid-1;
             }
             else{
                 low=mid+1;
             }
-        }
-        return low;
+       } 
+       return low;
     }
 };
