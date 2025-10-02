@@ -8,7 +8,7 @@ private:
             if(bloomDay[i]<=mid){
                 cnt++;
             }
-            else if(cnt>0){
+            else{
                 cnt=0;
             }
             if(cnt==k){
