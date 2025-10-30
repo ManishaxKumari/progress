@@ -13,15 +13,12 @@ public:
     ListNode* reverseList(ListNode* head) {
         ListNode* prev=nullptr;
         ListNode* curr=head;
-         while(curr !=nullptr){
+        while(curr!=nullptr){
             ListNode* temp=curr->next;
             curr->next=prev;
             prev=curr;
             curr=temp;
-
-         }
-         return prev;
+        }
+        return prev;
     }
 };
-
-//isme 3 pointer use karege -> prev-> nullptr,curr->head,temp-> curr->next,
