@@ -550,4 +550,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/ManishaxKumari/progress/tree/master/0374-guess-number-higher-or-lower) |
+## Database
+|  |
+| ------- |
+| [1757-recyclable-and-low-fat-products](https://github.com/ManishaxKumari/progress/tree/master/1757-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
