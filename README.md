@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/ManishaxKumari/progress/tree/master/0907-koko-eating-bananas) |
 | [0941-sort-array-by-parity](https://github.com/ManishaxKumari/progress/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1019-squares-of-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/1019-squares-of-a-sorted-array) |
 | [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ManishaxKumari/progress/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0503-next-greater-element-ii) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/ManishaxKumari/progress/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Two Pointers
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ManishaxKumari/progress/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
@@ -374,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ManishaxKumari/progress/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Simulation
 |  |
@@ -538,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0503-next-greater-element-ii) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Combinatorics
 |  |
 | ------- |
@@ -583,4 +588,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ManishaxKumari/progress/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/ManishaxKumari/progress/tree/master/0450-delete-node-in-a-bst) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ManishaxKumari/progress/tree/master/0701-insert-into-a-binary-search-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
