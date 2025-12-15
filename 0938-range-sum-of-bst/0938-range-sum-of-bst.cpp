@@ -11,14 +11,19 @@
  */
 class Solution {
 public:
-   
-    int rangeSumBST(TreeNode* root, int low, int high) {
-       if(root==nullptr) return 0;
-        int currsum=(root->val>=low && root->val <=high)? root->val :0;
-        int leftside=rangeSumBST(root->left,low,high);
-        int rightside=rangeSumBST(root->right,low,high);
-        return currsum+leftside+rightside;
 
-        
+    int rangeSumBST(TreeNode* root, int low, int high) {
+        if(root==nullptr) return 0;
+        int sum=0;
+        if(root->val >low){
+            sum+=rangeSumBST(root->left,low,high);
+        }
+        if(root->val >=low && root->val <=high){
+            sum+=root->val;
+        }
+        if(root->val <high){
+            sum+=rangeSumBST(root->right,low,high);
+        }
+        return sum;
     }
 };
