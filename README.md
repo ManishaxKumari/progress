@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [0792-binary-search](https://github.com/ManishaxKumari/progress/tree/master/0792-binary-search) |
+| [0860-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0860-lemonade-change) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ManishaxKumari/progress/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/ManishaxKumari/progress/tree/master/0907-koko-eating-bananas) |
@@ -504,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/ManishaxKumari/progress/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/ManishaxKumari/progress/tree/master/0605-can-place-flowers) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0860-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0860-lemonade-change) |
 | [0890-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0890-lemonade-change) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/ManishaxKumari/progress/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/ManishaxKumari/progress/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
