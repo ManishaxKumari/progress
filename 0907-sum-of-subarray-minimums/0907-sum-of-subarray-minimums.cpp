@@ -37,7 +37,7 @@ public:
         for (int i = 0; i < n; i++) {
             long long left = i - pse[i];
             long long right = nse[i] - i;
-            sum = (sum + arr[i] * left % mod * right % mod) % mod;
+            sum = (sum + arr[i] * left * right* 1LL) % mod;
         }
         return sum;
     }
