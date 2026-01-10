@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0540-single-element-in-a-sorted-array) |
 | [0605-can-place-flowers](https://github.com/ManishaxKumari/progress/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ManishaxKumari/progress/tree/master/0628-maximum-product-of-three-numbers) |
+| [0643-maximum-average-subarray-i](https://github.com/ManishaxKumari/progress/tree/master/0643-maximum-average-subarray-i) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ManishaxKumari/progress/tree/master/0735-asteroid-collision) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/ManishaxKumari/progress/tree/master/0076-minimum-window-substring) |
+| [0643-maximum-average-subarray-i](https://github.com/ManishaxKumari/progress/tree/master/0643-maximum-average-subarray-i) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/ManishaxKumari/progress/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Prefix Sum
