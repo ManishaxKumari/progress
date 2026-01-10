@@ -6,14 +6,9 @@ public:
         for(int i=0;i<k;i++){
             windowsum+=nums[i];
         }
-        int l=0;
-        int r=k-1;
         long long maxsum=windowsum;
-        while(r<n-1){
-            windowsum-=nums[l];
-            l++;
-            r++;
-            windowsum+=nums[r];
+        for(int i=k;i<n;i++){
+            windowsum+=nums[i]-nums[i-k];
             maxsum=max(maxsum,windowsum);
         }
         return (double)maxsum/k;
