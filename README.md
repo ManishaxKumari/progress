@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0860-lemonade-change) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ManishaxKumari/progress/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0890-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0890-lemonade-change) |
+| [0904-fruit-into-baskets](https://github.com/ManishaxKumari/progress/tree/master/0904-fruit-into-baskets) |
 | [0907-koko-eating-bananas](https://github.com/ManishaxKumari/progress/tree/master/0907-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/ManishaxKumari/progress/tree/master/0907-sum-of-subarray-minimums) |
 | [0941-sort-array-by-parity](https://github.com/ManishaxKumari/progress/tree/master/0941-sort-array-by-parity) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ManishaxKumari/progress/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ManishaxKumari/progress/tree/master/0076-minimum-window-substring) |
 | [0643-maximum-average-subarray-i](https://github.com/ManishaxKumari/progress/tree/master/0643-maximum-average-subarray-i) |
+| [0904-fruit-into-baskets](https://github.com/ManishaxKumari/progress/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/ManishaxKumari/progress/tree/master/1004-max-consecutive-ones-iii) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ManishaxKumari/progress/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0904-fruit-into-baskets](https://github.com/ManishaxKumari/progress/tree/master/0904-fruit-into-baskets) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/ManishaxKumari/progress/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1364-tuple-with-same-product](https://github.com/ManishaxKumari/progress/tree/master/1364-tuple-with-same-product) |
