@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1364-tuple-with-same-product](https://github.com/ManishaxKumari/progress/tree/master/1364-tuple-with-same-product) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ManishaxKumari/progress/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/ManishaxKumari/progress/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/ManishaxKumari/progress/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -103,12 +104,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0076-minimum-window-substring](https://github.com/ManishaxKumari/progress/tree/master/0076-minimum-window-substring) |
 | [0643-maximum-average-subarray-i](https://github.com/ManishaxKumari/progress/tree/master/0643-maximum-average-subarray-i) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/ManishaxKumari/progress/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Math
 |  |
