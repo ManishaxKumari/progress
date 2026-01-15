@@ -1,50 +1,33 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        /* Variable to store the minimum 
-        length of substring found */
-        int minLen = INT_MAX;
-        
-        /* Variable to store the starting index
-        of the minimum length substring */
-        int sIndex = -1;
-        
-        /* Array to count frequencies
-        of characters in string t*/
-        int hash[256] = {0};
-        
-        // Count the frequencies of characters in t
-        for (char c : t) {
+        int  minlen=INT_MAX;
+         int sindex=-1;
+         int hash[256]={0};
+         for(char c:t){
             hash[c]++;
-        }
-            
-        int count = 0;
-        int l = 0, r = 0;
-
-        while (r < s.size()) {
-            if (hash[s[r]] > 0) {
-                count++;
+         }
+         int cnt=0;
+         int l=0;
+         int r=0;
+         while(r<s.size()){
+            if(hash[s[r]]>0){
+                cnt++;
             }
             hash[s[r]]--;
-            while (count == t.size()) {
-                    
-    
-                if (r - l + 1 < minLen) {
-                    minLen = r - l + 1;
-                    sIndex = l;
+            while(cnt==t.size()){
+                if(r-l+1<minlen){
+                    minlen=r-l+1;
+                    sindex=l;
                 }
-                
-    
                 hash[s[l]]++;
-                if (hash[s[l]] > 0) {
-                    count--;
+                if(hash[s[l]]>0){
+                    cnt--;
                 }
                 l++;
             }
             r++;
-        }
-
-        return (sIndex == -1) ? "" : s.substr(sIndex, minLen);
+         }
+         return (sindex==-1)? "" : s.substr(sindex,minlen);
     }
-    
 };
