@@ -15,7 +15,6 @@ public:
             mpp[s[r]]++;
             while(check(mpp)){
                 mpp[s[l]]--;
-                if(mpp[s[l]]==0) mpp.erase(s[l]);
                 l++;
             }
             ans=max(ans,r-l+1);
