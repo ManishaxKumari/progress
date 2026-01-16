@@ -1,20 +1,14 @@
 class Solution {
 public:
-    bool check(const unordered_map<char,int> &mpp){
-        for(auto it : mpp){
-            if(it.second>1) return true;
-        }
-        return false;
-    }
     int lengthOfLongestSubstring(string s) {
         int n=s.size();
-        unordered_map<char,int> mpp;
+        vector<int> freq(256,0);
         int l=0;
         int ans=0;
         for(int r=0;r<n;r++){
-            mpp[s[r]]++;
-            while(check(mpp)){
-                mpp[s[l]]--;
+           freq[s[r]]++;
+            while(freq[s[r]]>1){
+                freq[s[l]]--;
                 l++;
             }
             ans=max(ans,r-l+1);
