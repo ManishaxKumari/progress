@@ -11,25 +11,20 @@
  */
 class Solution {
 public:
-    int magic(TreeNode* root, int &maxsum){
-        if(root==nullptr){
-            return 0;
-        }
-        int left=magic(root->left,maxsum);
-        int right=magic(root->right,maxsum);
-        //case 1 ->neeche hi kuch acha mil gya !! ye mil gya h isko return nhi karna h aage 
-        int found=left+right+root->val;
-        //case2->koi ak acha mila !! isko return kar sakte h 
+    int dfs(TreeNode* root,int &maxsum){
+        if(root==nullptr) return 0;
+        int left=dfs(root->left,maxsum);
+        int right=dfs(root->right,maxsum);
+        int pura=left+right+root->val;
         int onlyone=max(left,right)+root->val;
-        //case3-> only root acha h , isko bhi return kar sakte h
         int onlynode=root->val;
-        maxsum=max({maxsum,found,onlyone,onlynode});
-        return max(onlynode,onlyone);
+        maxsum=max({maxsum,pura,onlyone,onlynode});
+        return max(onlyone,onlynode);
 
     }
     int maxPathSum(TreeNode* root) {
         int maxsum=INT_MIN;
-        magic(root, maxsum);
+        dfs(root,maxsum);
         return maxsum;
     }
 };
