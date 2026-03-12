@@ -1,25 +1,31 @@
 class Solution {
-public:
-    void dfs(vector<vector<int>>& image, int i, int j, int color, int originalColor) {
-        int m = image.size();
-        int n = image[0].size();
-        if (i < 0 || i >= m || j < 0 || j >= n || image[i][j] != originalColor){
-                  return;
-        }
-        image[i][j] = color;
-        dfs(image, i + 1, j, color, originalColor); // down
-        dfs(image, i - 1, j, color, originalColor); // up
-        dfs(image, i, j + 1, color, originalColor); // right
-        dfs(image, i, j - 1, color, originalColor); // left
+private:
+    vector<int>delcol={-1,0,1,0};
+    vector<int>delrow={0,1,0,-1};
+    bool isvalid(int &i,int &j,int &n,int &m){
+        if(i<0 || i>=n) return false;
+        if(j<0 || j>=m) return false;
+        return true;
     }
 
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int originalColor = image[sr][sc];
-        // Edge Case — If color is already same, return image
-        if (originalColor == color){
-            return image;
+    void dfs(int row,int col,vector<vector<int>> &ans,int inicolor,int newcolor){
+        ans[row][col]=newcolor;
+        int n=ans.size();
+        int m=ans[0].size();
+        for(int i=0;i<4;i++){
+            int nrow=row+delrow[i];
+            int ncol=col+delcol[i];
+            if(isvalid(nrow,ncol,n,m) && ans[nrow][ncol]==inicolor && ans[nrow][ncol] !=newcolor){
+                dfs(nrow,ncol,ans,inicolor,newcolor);
+            }
         }
-        dfs(image, sr, sc, color, originalColor);
-        return image;
     }
+public:
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        
+        int inicolor=image[sr][sc];
+        vector<vector<int>> ans=image;
+        dfs(sr,sc,ans,inicolor,color);
+        return ans;
+}
 };
