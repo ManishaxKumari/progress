@@ -15,15 +15,15 @@ private:
         for(int i=0;i<4;i++){
             int nrow=row+delrow[i];
             int ncol=col+delcol[i];
-            if(isvalid(nrow,ncol,n,m) && ans[nrow][ncol]==inicolor && ans[nrow][ncol] !=newcolor){
+            if(isvalid(nrow,ncol,n,m) && ans[nrow][ncol]==inicolor){
                 dfs(nrow,ncol,ans,inicolor,newcolor);
             }
         }
     }
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        
         int inicolor=image[sr][sc];
+        if(inicolor == color) return image;
         vector<vector<int>> ans=image;
         dfs(sr,sc,ans,inicolor,color);
         return ans;
