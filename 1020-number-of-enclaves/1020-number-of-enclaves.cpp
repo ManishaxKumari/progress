@@ -5,41 +5,40 @@ public:
     bool valid(int i,int j,int m,int n){
         return i>=0 && j>=0 && i<m && j<n ;
     }
-    void dfs(vector<vector<int>> &ans,int r,int c){
-        ans[r][c]=0; //visited
-        int m=ans.size();
-        int n=ans[0].size();
+    void dfs(int r,int c,vector<vector<int>>& grid){
+        int m=grid.size();
+        int n=grid[0].size();
+        grid[r][c]=0;
         for(int i=0;i<4;i++){
             int nr=r+dr[i];
-            int nc=c+dc[i];
-            if(valid(nr,nc,m,n) && ans[nr][nc]==1){
-                dfs(ans,nr,nc);
+            int nc=r+dc[i];
+            if(valid(nr,nc,m,n) && grid[nr][nc]==1){
+                dfs(nr,nc,grid);
             }
         }
+
     }
     int numEnclaves(vector<vector<int>>& grid) {
         int m=grid.size();
-        int n=grid[0].size();
-        vector<vector<int>> ans=grid;
+        int n=grid[0].size(); // for looping we have to find m x n
+        //loop for find all boundary touch lands and start dfs from it 
         for(int i=0;i<m;i++){
-            if(ans[i][0]==1) dfs(ans,i,0);
-            if(ans[i][n-1]==1) dfs(ans,i,n-1);
+            if(grid[i][0] ==1) dfs(i,0,grid);
+            if(grid[i][n-1] ==1) dfs(i,n-1,grid);
         }
         for(int j=0;j<n;j++){
-            if(ans[0][j]==1) dfs(ans,0,j);
-            if(ans[m-1][j]==1) dfs(ans,m-1,j);
+            if(grid[0][j]==1) dfs(0,j,grid);
+            if(grid[m-1][j]==1) dfs(m-1,j,grid);
         }
+        //enclosed land count
         int cnt=0;
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                if(ans[i][j]==1){
-                    cnt++;
-                }
+                if(grid[i][j]==1) cnt++;
             }
         }
         return cnt;
-
-
+        
 
     }
 };
