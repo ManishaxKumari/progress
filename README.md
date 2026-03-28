@@ -323,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/ManishaxKumari/progress/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/ManishaxKumari/progress/tree/master/0542-01-matrix) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/ManishaxKumari/progress/tree/master/0907-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/ManishaxKumari/progress/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ManishaxKumari/progress/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0938-range-sum-of-bst](https://github.com/ManishaxKumari/progress/tree/master/0938-range-sum-of-bst) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ManishaxKumari/progress/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/ManishaxKumari/progress/tree/master/0994-rotting-oranges) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
@@ -627,6 +630,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ManishaxKumari/progress/tree/master/0215-kth-largest-element-in-an-array) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/ManishaxKumari/progress/tree/master/2434-design-a-number-container-system) |
@@ -729,4 +733,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ManishaxKumari/progress/tree/master/0130-surrounded-regions) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
+## Graph Theory
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
