@@ -1,19 +1,14 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-       int n=s.size();
-       int j=0;
-       for(int i=0;i<n;i++){ //remove all special char and change case into lower
-        if(isalnum(s[i])){
-            s[j++]=tolower(s[i]);
+        string newstr="";
+        for(char c : s){
+            if(isalnum(c)){
+                newstr+=tolower(c);
+            }
         }
-       }
-       s.resize(j);
-       string rev=s;
-       reverse(rev.begin(),rev.end());
-       return s==rev;
-
-
-
+        string revstr=newstr;
+        reverse(revstr.begin(),revstr.end());
+        return newstr==revstr;
     }
 };
