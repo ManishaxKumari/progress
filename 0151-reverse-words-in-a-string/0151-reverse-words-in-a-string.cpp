@@ -2,22 +2,31 @@ class Solution {
 public:
     string reverseWords(string s) {
         int n=s.size();
-        stack<string> st;
+        //reverse whole string
+        reverse(s.begin(),s.end()); 
+        //reverse the each word
         int i=0;
         while(i<n){
-            while(i<n && s[i]==' ')i++;
-            if(i>=n) break;
+            while(i<n && s[i]==' ') i++;
             int j=i;
             while(j<n && s[j]!=' ') j++;
-            st.push(s.substr(i,j-i));
+            reverse(s.begin()+i,s.begin()+j);
             i=j;
         }
-        string ans="";
-        while(!st.empty()){
-            ans=ans+st.top();
-            st.pop();
-            if(!st.empty()) ans+=" ";
+       //remove extra spaces->slow and fast pointer
+        i=0;
+        int j=0;
+        
+        while(i<n){
+            while(i<n && s[i]==' ') i++;
+            while(i < n && s[i] != ' '){
+                s[j++] = s[i++];
+            }
+            while(i<n && s[i]== ' ') i++;
+            if(i < n) s[j++] = ' ';
         }
-        return ans;
-        }
+        
+        s.resize(j);
+        return s;
+    }
 };
