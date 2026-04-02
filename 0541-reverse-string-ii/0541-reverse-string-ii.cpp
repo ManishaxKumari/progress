@@ -1,25 +1,14 @@
 class Solution {
 public:
-    void rev(int l,int r,string &str){
-        while(l<=r){
-            swap(str[l],str[r]);
-            l++;
-            r--;
-        }
-    }
     string reverseStr(string s, int k) {
-        string str=s;
-        int n=str.size();
-        int l=0;
-        int r=k-1;
-        while(l<n && r<n){
-            rev(l,r,str);
-            l=l+(2*k);
-            r=r+(2*k);
+        int n=s.size();
+        for(int i=0;i<n;i=i+(2*k)){
+            int l=i;
+            int r=min(i+k-1,n-1);
+            while(l<r){
+                swap(s[l++],s[r--]);
+            }
         }
-        if(l<n){
-            rev(l,n-1,str);
-        }
-        return str;
+        return s;
     }
 };
