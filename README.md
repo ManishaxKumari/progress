@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/ManishaxKumari/progress/tree/master/0275-h-index-ii) |
+| [0303-range-sum-query-immutable](https://github.com/ManishaxKumari/progress/tree/master/0303-range-sum-query-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [0384-shuffle-an-array](https://github.com/ManishaxKumari/progress/tree/master/0384-shuffle-an-array) |
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/ManishaxKumari/progress/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/ManishaxKumari/progress/tree/master/0560-subarray-sum-equals-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/ManishaxKumari/progress/tree/master/0930-binary-subarrays-with-sum) |
@@ -626,6 +628,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/ManishaxKumari/progress/tree/master/0173-binary-search-tree-iterator) |
+| [0303-range-sum-query-immutable](https://github.com/ManishaxKumari/progress/tree/master/0303-range-sum-query-immutable) |
 | [0384-shuffle-an-array](https://github.com/ManishaxKumari/progress/tree/master/0384-shuffle-an-array) |
 | [2434-design-a-number-container-system](https://github.com/ManishaxKumari/progress/tree/master/2434-design-a-number-container-system) |
 ## Randomized
