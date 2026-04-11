@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/ManishaxKumari/progress/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/ManishaxKumari/progress/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ManishaxKumari/progress/tree/master/0137-single-number-ii) |
+| [0152-maximum-product-subarray](https://github.com/ManishaxKumari/progress/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/ManishaxKumari/progress/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/ManishaxKumari/progress/tree/master/0162-find-peak-element) |
@@ -335,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/ManishaxKumari/progress/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/ManishaxKumari/progress/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
+| [0152-maximum-product-subarray](https://github.com/ManishaxKumari/progress/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/ManishaxKumari/progress/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
