@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/ManishaxKumari/progress/tree/master/2410-maximum-matching-of-players-with-trainers) |
 | [2448-count-number-of-bad-pairs](https://github.com/ManishaxKumari/progress/tree/master/2448-count-number-of-bad-pairs) |
 | [2574-left-and-right-sum-differences](https://github.com/ManishaxKumari/progress/tree/master/2574-left-and-right-sum-differences) |
+| [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 | [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ManishaxKumari/progress/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/ManishaxKumari/progress/tree/master/1248-count-number-of-nice-subarrays) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ManishaxKumari/progress/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2448-count-number-of-bad-pairs](https://github.com/ManishaxKumari/progress/tree/master/2448-count-number-of-bad-pairs) |
+| [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 | [3199-distribute-candies-among-children-i](https://github.com/ManishaxKumari/progress/tree/master/3199-distribute-candies-among-children-i) |
 | [3201-distribute-candies-among-children-ii](https://github.com/ManishaxKumari/progress/tree/master/3201-distribute-candies-among-children-ii) |
 ## Hash Table
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/ManishaxKumari/progress/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/ManishaxKumari/progress/tree/master/2448-count-number-of-bad-pairs) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/ManishaxKumari/progress/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ManishaxKumari/progress/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -320,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ManishaxKumari/progress/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/ManishaxKumari/progress/tree/master/2410-maximum-matching-of-players-with-trainers) |
+| [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -347,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/ManishaxKumari/progress/tree/master/0907-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/ManishaxKumari/progress/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
+| [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 ## Backtracking
 |  |
 | ------- |
@@ -359,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/ManishaxKumari/progress/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/ManishaxKumari/progress/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
+| [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -696,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/ManishaxKumari/progress/tree/master/0062-unique-paths) |
+| [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 | [3199-distribute-candies-among-children-i](https://github.com/ManishaxKumari/progress/tree/master/3199-distribute-candies-among-children-i) |
 | [3201-distribute-candies-among-children-ii](https://github.com/ManishaxKumari/progress/tree/master/3201-distribute-candies-among-children-ii) |
 ## Enumeration
