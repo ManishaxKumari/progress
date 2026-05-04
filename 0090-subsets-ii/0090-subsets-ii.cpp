@@ -1,30 +1,31 @@
 class Solution {
 public:
-    void func(vector<int>& nums, vector<vector<int>> &ans, vector<int> v,int n,int ind){
-        if(ind==n){
+    void solve(vector<int>& nums,vector<vector<int>> &ans,vector<int> &v,int index){
+        if(index>=nums.size()){
             ans.push_back(v);
             return;
         }
-        //take it
-        v.push_back(nums[ind]);
-        func(nums,ans,v,n,ind+1);
+        //pick
+        v.push_back(nums[index]);
+        solve(nums,ans,v,index+1);
+        //backtrack
         v.pop_back();
-        //not take
-        for(int i=ind+1;i<n;i++){
-            if(nums[i]!=nums[ind]){
-                func(nums,ans,v,n,i);
+        
+        //not pick
+        for(int i=index+1; i<nums.size();i++){
+            if(nums[i]!=nums[index]){
+                solve(nums,ans,v,i);
                 return;
             }
         }
-        // Ensure the function finishes when no more unique elements are left
-       func(nums,ans,v,n,n);
+        //in case -> there is all same element ( no different element left)
+        solve(nums,ans,v,nums.size());
     }
-
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         vector<vector<int>> ans;
         vector<int> v;
-        sort(nums.begin(),nums.end());
-        func(nums,ans,v,nums.size(),0);
+        sort(ans.begin(),ans.end());
+        solve(nums,ans,v,0);
         return ans;
     }
 };
