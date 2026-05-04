@@ -1,28 +1,27 @@
 class Solution {
 public:
-    bool check(vector<int>&v,int k){
-        int n=v.size();
-        for(int i=0;i<n;i++){
-            for(int j=i+1;j<n;j++){
-                if(abs(v[i]-v[j])==k){
-                    return false;
-                }
-            }
+    bool canpick(vector<int> &v,int num,int k){
+        for(auto x :v){
+            if(abs(x-num)==k) return false;
         }
         return true;
     }
+    
     void solve(vector<int>& nums,vector<int> &v,int index,int k,int &cnt){
         if(index==nums.size()){
-            if(check(v,k) && !v.empty()){
+            if(!v.empty()){
                 cnt++;
             }
             return;
         }
         //pick
-        v.push_back(nums[index]);
-        solve(nums,v,index+1,k,cnt);
-        //backtrack;
-        v.pop_back();
+        if(canpick(v,nums[index],k)){
+            v.push_back(nums[index]);
+            solve(nums,v,index+1,k,cnt);
+            //backtrack;
+            v.pop_back();
+        }
+
         //not pick
         solve(nums,v,index+1,k,cnt);
     }
