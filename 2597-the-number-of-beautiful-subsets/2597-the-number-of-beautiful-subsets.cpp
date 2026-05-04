@@ -3,7 +3,7 @@ public:
     bool check(vector<int>&v,int k){
         int n=v.size();
         for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
+            for(int j=i+1;j<n;j++){
                 if(abs(v[i]-v[j])==k){
                     return false;
                 }
