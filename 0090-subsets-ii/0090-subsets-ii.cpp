@@ -1,7 +1,7 @@
 class Solution {
 public:
     void solve(vector<int>& nums,vector<vector<int>> &ans,vector<int> &v,int index){
-        if(index>=nums.size()){
+        if(index==nums.size()){
             ans.push_back(v);
             return;
         }
@@ -24,7 +24,7 @@ public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         vector<vector<int>> ans;
         vector<int> v;
-        sort(ans.begin(),ans.end());
+        sort(nums.begin(),nums.end());
         solve(nums,ans,v,0);
         return ans;
     }
