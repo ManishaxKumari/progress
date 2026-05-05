@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/ManishaxKumari/progress/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/ManishaxKumari/progress/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ManishaxKumari/progress/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/ManishaxKumari/progress/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0540-single-element-in-a-sorted-array) |
@@ -348,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ManishaxKumari/progress/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ManishaxKumari/progress/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/ManishaxKumari/progress/tree/master/0542-01-matrix) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -369,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/ManishaxKumari/progress/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/ManishaxKumari/progress/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/ManishaxKumari/progress/tree/master/0216-combination-sum-iii) |
+| [0494-target-sum](https://github.com/ManishaxKumari/progress/tree/master/0494-target-sum) |
 | [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 ## Bit Manipulation
 |  |
