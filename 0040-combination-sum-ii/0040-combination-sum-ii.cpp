@@ -6,13 +6,16 @@ public:
             ans.push_back(v);
             return;
         }
-        
-        for(int i=index;i<candidates.size();i++){
-            if(i>index && candidates[i]==candidates[i-1]) continue;
-            if(candidates[i]>sum) break;
-            v.push_back(candidates[i]);
-            solve(candidates,ans,v,sum-candidates[i],i+1);
-            v.pop_back();
+        if(sum < 0 || index == candidates.size()) return; 
+        v.push_back(candidates[index]);
+        solve(candidates,ans,v,sum-candidates[index],index+1); 
+        v.pop_back(); 
+
+        for(int i = index + 1; i < candidates.size(); i++) {
+            if(candidates[i] != candidates[index]) {
+                solve(candidates,ans,v,sum,i); 
+                break; 
+            }
         }
 
     }
