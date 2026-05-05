@@ -6,19 +6,14 @@ public:
             ans.push_back(v);
             return;
         }
-        if(index==candidates.size() || sum<0) return;
-
-        //pick
-        v.push_back(candidates[index]);
-        solve(candidates,ans,v,sum-candidates[index],index+1);
-        v.pop_back();
-
-        //skip duplicates
-        while(index+1 < candidates.size() && candidates[index]==candidates[index+1]){
-            index++;
+        
+        for(int i=index;i<candidates.size();i++){
+            if(i>index && candidates[i]==candidates[i-1]) continue;
+            if(candidates[i]>sum) break;
+            v.push_back(candidates[i]);
+            solve(candidates,ans,v,sum-candidates[i],i+1);
+            v.pop_back();
         }
-        //not pick
-        solve(candidates,ans,v,sum,index+1);
 
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
