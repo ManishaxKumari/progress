@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/ManishaxKumari/progress/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ManishaxKumari/progress/tree/master/1248-count-number-of-nice-subarrays) |
+| [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1364-tuple-with-same-product](https://github.com/ManishaxKumari/progress/tree/master/1364-tuple-with-same-product) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/ManishaxKumari/progress/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
