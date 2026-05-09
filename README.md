@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ManishaxKumari/progress/tree/master/0735-asteroid-collision) |
+| [0746-min-cost-climbing-stairs](https://github.com/ManishaxKumari/progress/tree/master/0746-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/ManishaxKumari/progress/tree/master/0792-binary-search) |
 | [0860-lemonade-change](https://github.com/ManishaxKumari/progress/tree/master/0860-lemonade-change) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ManishaxKumari/progress/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -360,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/0509-fibonacci-number) |
 | [0542-01-matrix](https://github.com/ManishaxKumari/progress/tree/master/0542-01-matrix) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0746-min-cost-climbing-stairs](https://github.com/ManishaxKumari/progress/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/ManishaxKumari/progress/tree/master/0907-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
