@@ -8,56 +8,41 @@
  * };
  */
 class Codec {
+private:
+    void dfsS(TreeNode* root,stringstream &ss){
+        if(!root){
+            ss<<1001;
+            ss<<" ";
+            return;
+        }
+        ss<<root->val;
+        ss<<" ";
+        dfsS(root->left,ss);
+        dfsS(root->right,ss);
+    }
+    TreeNode* dfsDS(stringstream &ss){
+        int val;
+        ss>>val;
+        if(val==1001) return 0;
+        TreeNode* root=new TreeNode(val);
+        root->left=dfsDS(ss);
+        root->right=dfsDS(ss);
+        return root;
+
+    }
 public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-        if(!root) return "";
-        string s="";
-        queue<TreeNode*>q;
-        q.push(root);
-        while(!q.empty()){
-            TreeNode* node=q.front();
-            q.pop();
-            if(node==nullptr) s.append("#,");
-            else s.append(to_string(node->val)+',');
-            if(node!=nullptr){
-                q.push(node->left);
-                q.push(node->right);
-            }
-        }
-        return s;
+        stringstream ss;
+        dfsS(root,ss);
+        return ss.str();
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        if(data.size()==0) return nullptr;
-        stringstream s(data);
-        string str;
-        getline(s,str,',');
-        TreeNode* root=new TreeNode(stoi(str));
-        queue<TreeNode*>q;
-        q.push(root);
-        while(!q.empty()){
-            TreeNode*node=q.front();
-            q.pop();
-
-            getline(s,str,',');
-            if(str=="#") node->left=nullptr;
-            else{
-                TreeNode* leftnode=new TreeNode(stoi(str));
-                node->left=leftnode;
-                q.push(leftnode);
-            }
-            getline(s,str,',');
-            if(str=="#") node->right=nullptr;
-            else{
-                TreeNode* rightnode=new TreeNode(stoi(str));
-                node->right=rightnode;
-                q.push(rightnode);
-            }
-        }
-        return root;
+        stringstream ss(data);
+        return dfsDS(ss);
     }
 };
 
