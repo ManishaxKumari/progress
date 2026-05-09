@@ -11,22 +11,22 @@
  */
 class Solution {
 public:
-    TreeNode* solve(vector<int>& preorder, vector<int>& inorder,int start,int end,int &index){
-        if(start>end) return nullptr;
-        int rootval=preorder[index];
-        int i=start;
-        for(;i<=end;i++){
-            if(inorder[i]==rootval) break;
+    TreeNode*  solve(vector<int>& preorder, int preStart, int preEnd,vector<int>& inorder, int inStart, int inEnd, unordered_map<int, int>& inMap) {
+        if (preStart > preEnd || inStart > inEnd) {
+            return nullptr;
         }
-         index++;
-            TreeNode* root=new TreeNode(rootval);
-            root->left=solve(preorder,inorder,start,i-1,index);
-            root->right=solve(preorder,inorder,i+1,end,index);
-            return root;
+        TreeNode* root = new TreeNode(preorder[preStart]);
+        int inRoot = inMap[root->val];
+        int numsLeft = inRoot - inStart;
+        root->left =solve(preorder, preStart + 1, preStart + numsLeft,inorder, inStart, inRoot - 1, inMap);
+        root->right = solve(preorder, preStart + numsLeft + 1, preEnd,inorder, inRoot + 1, inEnd, inMap);
+        return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int n=preorder.size();
-        int index=0;
-        return solve(preorder,inorder,0,n-1,index);
+        unordered_map<int, int> inMap;
+        for (int i = 0; i < inorder.size(); i++) {
+            inMap[inorder[i]] = i;
+        }
+        return solve(preorder, 0, preorder.size() - 1, inorder, 0, inorder.size() - 1, inMap);
     }
 };
