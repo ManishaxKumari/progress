@@ -11,15 +11,30 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode* root,vector<int>&arr){
-        if(root==nullptr) return;
-        arr.push_back(root->val);
-        preorder(root->left,arr);
-        preorder(root->right,arr);
-    }
     vector<int> preorderTraversal(TreeNode* root) {
-        vector<int>arr;
-        preorder(root,arr);
-        return arr;
+        vector<int> ans;
+        TreeNode* curr = root;
+        while (curr != nullptr) {
+            if (curr->left == nullptr) {
+                ans.push_back(curr->val);
+                curr = curr->right;
+            } 
+            else {
+                TreeNode* pred = curr->left;
+                while (pred->right != nullptr && pred->right != curr) {
+                    pred = pred->right;
+                }
+                if (pred->right == nullptr) {
+                    pred->right = curr;   // create thread
+                    ans.push_back(curr->val);
+                    curr = curr->left;
+                } 
+                else {
+                    pred->right = nullptr; // remove thread
+                    curr = curr->right;
+                }
+            }
+        }
+        return ans;
     }
 };
