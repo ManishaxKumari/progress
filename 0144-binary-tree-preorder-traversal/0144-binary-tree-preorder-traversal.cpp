@@ -11,30 +11,25 @@
  */
 class Solution {
 public:
+    //iterative solution
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> ans;
-        TreeNode* curr = root;
-        while (curr != nullptr) {
-            if (curr->left == nullptr) {
-                ans.push_back(curr->val);
-                curr = curr->right;
-            } 
-            else {
-                TreeNode* pred = curr->left;
-                while (pred->right != nullptr && pred->right != curr) {
-                    pred = pred->right;
-                }
-                if (pred->right == nullptr) {
-                    pred->right = curr;   // create thread
-                    ans.push_back(curr->val);
-                    curr = curr->left;
-                } 
-                else {
-                    pred->right = nullptr; // remove thread
-                    curr = curr->right;
-                }
+        stack<TreeNode*> st;
+        TreeNode* node=root;
+        while(true){
+            if(node==nullptr){
+                if(st.empty()) break;
+                node=st.top();
+                st.pop();
+                node=node->right;
+            }
+            else{
+                ans.push_back(node->val);
+                st.push(node);
+                node=node->left;
             }
         }
         return ans;
+
     }
 };
