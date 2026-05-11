@@ -11,15 +11,15 @@
  */
 class Solution {
 public:
-    bool dfs(TreeNode* p,TreeNode* q){
+    bool solve(TreeNode* p,TreeNode* q){
         if(p==nullptr && q==nullptr) return true;
         if(p==nullptr || q==nullptr) return false;
         if(p->val !=q->val) return false;
-        return dfs(p->left,q->right) && dfs(p->right,q->left);
+        return solve(p->left,q->right) && solve(p->right,q->left);
     }
     bool isSymmetric(TreeNode* root) {
         TreeNode* p=root->left;
         TreeNode* q=root->right;
-        return dfs(p,q);
+        return solve(p,q);
     }
 };
