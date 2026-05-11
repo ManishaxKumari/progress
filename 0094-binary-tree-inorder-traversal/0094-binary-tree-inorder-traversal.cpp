@@ -11,30 +11,15 @@
  */
 class Solution {
 public:
+    void dfs(TreeNode* root,vector<int> &ans){
+        if(root==nullptr) return;
+        dfs(root->left,ans);
+        ans.push_back(root->val);
+        dfs(root->right,ans);
+    }
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> ans;
-        TreeNode* curr = root;
-        while (curr != nullptr) {
-            if (curr->left == nullptr) {
-                ans.push_back(curr->val);
-                curr = curr->right;
-            } 
-            else {
-                TreeNode* pred = curr->left;
-                while (pred->right != nullptr && pred->right != curr) {
-                    pred = pred->right;
-                }
-                if (pred->right == nullptr) {
-                    pred->right = curr;   // create thread
-                    curr = curr->left;
-                } 
-                else {
-                    pred->right = nullptr; // remove thread
-                    ans.push_back(curr->val);
-                    curr = curr->right;
-                }
-            }
-        }
+        dfs(root,ans);
         return ans;
     }
 };
