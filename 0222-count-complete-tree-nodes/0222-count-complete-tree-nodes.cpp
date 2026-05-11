@@ -11,33 +11,8 @@
  */
 class Solution {
 public:
-    int getleftheight(TreeNode* root){
-        TreeNode* temp=root;
-        int l=0;
-        while(temp){
-            temp=temp->left;
-            l++;
-        }
-        return l;
-    }
-    int getrightheight(TreeNode* root){
-        TreeNode* temp=root;
-        int r=0;
-        while(temp){
-            temp=temp->right;
-            r++;
-        }
-        return r;
-    }
-
-
     int countNodes(TreeNode* root) {
-        if(root==nullptr){
-            return 0;
-        }
-        int l=getleftheight(root);
-        int r=getrightheight(root);
-        if(l==r) return (pow(2,r)- 1);
-        return countNodes(root->left) + countNodes(root->right)+1;
+        if(root==nullptr) return 0;
+        return 1+countNodes(root->left)+countNodes(root->right);
     }
 };
