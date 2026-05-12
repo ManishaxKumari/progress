@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/ManishaxKumari/progress/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ManishaxKumari/progress/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/ManishaxKumari/progress/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ManishaxKumari/progress/tree/master/0930-binary-subarrays-with-sum) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/ManishaxKumari/progress/tree/master/0961-n-repeated-element-in-size-2n-array) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ManishaxKumari/progress/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ManishaxKumari/progress/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0938-range-sum-of-bst](https://github.com/ManishaxKumari/progress/tree/master/0938-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0938-range-sum-of-bst](https://github.com/ManishaxKumari/progress/tree/master/0938-range-sum-of-bst) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -516,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ManishaxKumari/progress/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/ManishaxKumari/progress/tree/master/0701-insert-into-a-binary-search-tree) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0938-range-sum-of-bst](https://github.com/ManishaxKumari/progress/tree/master/0938-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
@@ -581,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0662-maximum-width-of-binary-tree) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0863-all-nodes-distance-k-in-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0994-rotting-oranges](https://github.com/ManishaxKumari/progress/tree/master/0994-rotting-oranges) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
