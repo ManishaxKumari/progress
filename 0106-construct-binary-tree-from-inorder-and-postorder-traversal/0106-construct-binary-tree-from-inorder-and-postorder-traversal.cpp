@@ -11,14 +11,12 @@
  */
 class Solution {
 public:
+    unordered_map<int, int> inorderMap;
     TreeNode* solve(vector<int>& inorder, vector<int>& postorder,
                     int start, int end, int &index) {
         if (start > end) return nullptr;
         int rootval = postorder[index--];
-        int i = start;
-        while (i <= end && inorder[i] != rootval) {
-            i++;
-        }
+        int i=inorderMap[rootval];
         TreeNode* root = new TreeNode(rootval);
         root->right = solve(inorder, postorder, i + 1, end, index);
         root->left = solve(inorder, postorder, start, i - 1, index);
@@ -27,6 +25,9 @@ public:
 
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         int index = postorder.size() - 1;
+        for (int i = 0; i < inorder.size(); i++) {
+            inorderMap[inorder[i]] = i;
+        }
         return solve(inorder, postorder, 0, inorder.size() - 1, index);
     }
 };
