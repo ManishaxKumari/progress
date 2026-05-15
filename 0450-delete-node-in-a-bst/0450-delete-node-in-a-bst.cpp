@@ -12,36 +12,38 @@
 class Solution {
 public:
     TreeNode* connector(TreeNode* node){
-        if(node->left == nullptr) return node->right;
-        if(node->right == nullptr) return node->left;
-        TreeNode* leftsubtree=node->left;
-        TreeNode* leftmost_rightsubtree=node->right;
-        while(leftmost_rightsubtree->left!=NULL){ //danger zone
-            leftmost_rightsubtree =leftmost_rightsubtree->left;
+        if(node->left ==nullptr) return node->right;
+        if(node->right==nullptr) return node->left;
+        //store left subtree -> go to leftmost node of right subtree and connect it to left subtree then return right subtree 
+        TreeNode* left_subtree=node->left;
+        TreeNode* right_subtree=node->right;
+        while(right_subtree->left !=nullptr){ // find leftmost node of rightsubtree
+            right_subtree=right_subtree->left;
         }
-        leftmost_rightsubtree->left=leftsubtree;
-        return node->right;
+
+        right_subtree->left=left_subtree;
+        return node->right; //connect with this now !
+
+
     }
     TreeNode* deleteNode(TreeNode* root, int key) {
-        if(root == nullptr) return nullptr;
-        if(root->val == key){
-            return connector(root);
-        }
-          TreeNode* node=root;
-        while(node!=nullptr){
+        if(root==nullptr) return nullptr;
+        if(root->val == key) return connector(root);
+
+        TreeNode* node=root;
+        while(node!=nullptr){ // find the node you want to delete it
             if(node->val > key){
-                if(node->left && node->left->val == key){
-                    node->left=connector(node->left);
+                if(node->left && node->left->val ==key){
+                    node->left = connector(node->left);
                     break;
                 }
                 else{
                     node=node->left;
                 }
             }
-            else if(node->val < key){
-                 if( node->right && node->right->val == key){
+            else{
+                if(node->right && node->right->val==key){
                     node->right=connector(node->right);
-                    break;
                 }
                 else{
                     node=node->right;
