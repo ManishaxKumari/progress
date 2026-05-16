@@ -19,6 +19,5 @@ public:
             return lowestCommonAncestor(root->right,p,q);
         }
         return root;
-
     }
 };
