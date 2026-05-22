@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/ManishaxKumari/progress/tree/master/0216-combination-sum-iii) |
 | [0217-contains-duplicate](https://github.com/ManishaxKumari/progress/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0229-majority-element-ii) |
+| [0239-sliding-window-maximum](https://github.com/ManishaxKumari/progress/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/ManishaxKumari/progress/tree/master/0275-h-index-ii) |
 | [0303-range-sum-query-immutable](https://github.com/ManishaxKumari/progress/tree/master/0303-range-sum-query-immutable) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ManishaxKumari/progress/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ManishaxKumari/progress/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/ManishaxKumari/progress/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/ManishaxKumari/progress/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/ManishaxKumari/progress/tree/master/0643-maximum-average-subarray-i) |
 | [0904-fruit-into-baskets](https://github.com/ManishaxKumari/progress/tree/master/0904-fruit-into-baskets) |
@@ -727,6 +729,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/ManishaxKumari/progress/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/ManishaxKumari/progress/tree/master/0239-sliding-window-maximum) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
@@ -860,4 +863,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/ManishaxKumari/progress/tree/master/0146-lru-cache) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ManishaxKumari/progress/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/ManishaxKumari/progress/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
