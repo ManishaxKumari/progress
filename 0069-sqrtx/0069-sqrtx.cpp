@@ -1,22 +1,21 @@
 class Solution {
 public:
+    using ll=long long;
     int mySqrt(int x) {
-        long long low=1;
-        long long high=x;
-        //int ans=0;
+        ll low=0;
+        ll high=x;
         while(low<=high){
-            long long mid=low+(high-low)/2;
-            long long res=mid*mid;
-            if(res<=x){
-                //ans=mid;
+            ll mid=(low+high)/2;
+            ll ans=mid*mid;
+            ll target=x;
+            if(ans == target) return (int)mid;
+            else if(ans<target){
                 low=mid+1;
             }
             else{
                 high=mid-1;
             }
-        
         }
-        //return ans;
-        return high;
+        return (int)high;
     }
 };
