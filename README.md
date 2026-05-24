@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/ManishaxKumari/progress/tree/master/0605-can-place-flowers) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ManishaxKumari/progress/tree/master/0628-maximum-product-of-three-numbers) |
 | [0643-maximum-average-subarray-i](https://github.com/ManishaxKumari/progress/tree/master/0643-maximum-average-subarray-i) |
+| [0704-binary-search](https://github.com/ManishaxKumari/progress/tree/master/0704-binary-search) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ManishaxKumari/progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0733-flood-fill](https://github.com/ManishaxKumari/progress/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/ManishaxKumari/progress/tree/master/0735-asteroid-collision) |
@@ -587,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
 | [0441-arranging-coins](https://github.com/ManishaxKumari/progress/tree/master/0441-arranging-coins) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0540-single-element-in-a-sorted-array) |
+| [0704-binary-search](https://github.com/ManishaxKumari/progress/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/ManishaxKumari/progress/tree/master/0792-binary-search) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/ManishaxKumari/progress/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/ManishaxKumari/progress/tree/master/0907-koko-eating-bananas) |
