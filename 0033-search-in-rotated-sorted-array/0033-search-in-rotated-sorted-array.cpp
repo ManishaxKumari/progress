@@ -6,19 +6,17 @@ public:
         int high=n-1;
         while(low<=high){
             int mid=(low+high)/2;
-            if(nums[mid]==target){
-                return mid;
-            }
-            else if(nums[low]<=nums[mid]){ // if left part is sorted and right unsorted
-                if(nums[low]<=target && target <=nums[mid]){ // ele present in sorted part->left
-                    high=mid-1;
+            if(nums[mid]==target) return mid;
+            else if(nums[low]<=nums[mid]){ // ky left part sorted h??
+                if(nums[low]<=target && target <=nums[mid]){ // target sorted part mai exist karta h?
+                high=mid-1;
                 }
-                else{// ele present in sorted part->right
+                else { // unsorted part mai exist karta h
                     low=mid+1;
                 }
             }
-            else{// is right part is sorted and left unsorted
-                if(nums[mid]<=target && target<=nums[high]){ // le present in sorted part->right
+            else{ //right part sorted
+                if(nums[mid]<=target && target <=nums[high]){
                     low=mid+1;
                 }
                 else{
