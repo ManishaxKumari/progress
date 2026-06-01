@@ -10,64 +10,38 @@
  */
 class Solution {
 public:
-   
-    // bool isPalindrome(ListNode* head) {
-    //     ListNode* orghead=head;
-    //     ListNode* revhead=reverseLL(head);
-    //     ListNode* temp1=orghead;
-    //     ListNode* temp2=revhead;
-    //     while(temp1 != nullptr){
-    //         if(temp1->val != temp2->val){
-    //             return false;
-    //         }
-    //         temp1=temp1->next;
-    //         temp2=temp2->next;
-    //     }
-    //     return true;
-
-    //     above method is not work because reverse karne ke bad tum orginal head ko hi 
-    //     reverse kar dete ho , tum orginal ko store nhi rkh sakte kyuki memory address 
-    //     same hota h 
-
-
-    // }
-
-     ListNode* reverseLL(ListNode* head){
+    ListNode* reversell(ListNode* node){
         ListNode* prev=nullptr;
-        ListNode* curr =head;
-        while(curr != nullptr){
-            ListNode* temp=curr->next;
+        ListNode* curr=node;
+        while(curr!=nullptr){
+            ListNode* next=curr->next;
             curr->next=prev;
             prev=curr;
-            curr=temp;
+            curr=next;
         }
         return prev;
     }
-
-    bool isPalindrome(ListNode* head){
-        if(head==nullptr || head->next == nullptr){
-            return true;
-        }
-        ListNode* slow = head;
-        ListNode* fast = head;
-        while(fast->next != nullptr && fast->next->next !=nullptr){
+    bool isPalindrome(ListNode* head) {
+        if(head==nullptr || head->next==nullptr) return true;
+        ListNode* fast=head;
+        ListNode* slow=head;
+        while(fast!=nullptr && fast->next!=nullptr){
             slow=slow->next;
             fast=fast->next->next;
         }
-        ListNode* newHead = reverseLL(slow->next);
-        ListNode* first = head;
-        ListNode* second = newHead; 
-        while(second != nullptr){
-            if(first->val != second->val){
-                reverseLL(newHead); // here is it imp???? yes in production level / interview because kahi per input change nhi karna hoota 
+        ListNode* revhead=reversell(slow);
+        ListNode* l1=head;
+        ListNode* l2=revhead;
+        while(l2!=nullptr){
+            if(l1->val != l2->val){
+                reversell(revhead);
                 return false;
             }
-            first = first->next;
-            second = second->next;
+            l1=l1->next;
+            l2=l2->next;
         }
-        reverseLL(newHead);
-        return true;
-
+        reversell(revhead);
+        return head;
 
     }
 };
