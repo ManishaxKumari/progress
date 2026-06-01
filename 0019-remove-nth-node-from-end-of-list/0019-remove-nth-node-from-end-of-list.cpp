@@ -10,32 +10,27 @@
  */
 class Solution {
 public:
-    ListNode* reverseLL(ListNode* head){
-        if(head==nullptr) return nullptr;
-        if(head->next==nullptr) return head;
-        ListNode* prevnode=nullptr;
-        ListNode* nextnode=nullptr;
+    int length(ListNode* head){
+        int cnt=0;
         ListNode* temp=head;
-
         while(temp!=nullptr){
-            nextnode=temp->next;
-            temp->next=prevnode;
-            prevnode=temp;
-            temp=nextnode;
+            cnt++;
+            temp=temp->next;
         }
-        return prevnode;
+        return cnt;
     }
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        ListNode* newhead=reverseLL(head);
-        ListNode* temp=newhead;
+        int totallen=length(head);
+        int k=totallen-n+1;
+        ListNode* temp=head;
         int cnt=1;
-        if(n==1){
-            ListNode* newnode=temp->next;
+        if(k==1){
+            head=head->next;
             delete temp;
-            return reverseLL(newnode);
+            return head;
         }
         while(temp!=nullptr){
-            if(cnt==n-1){
+            if(cnt==k-1){
                 ListNode* node=temp->next;
                 temp->next=temp->next->next;
                 delete node;
@@ -43,7 +38,8 @@ public:
             cnt++;
             temp=temp->next;
         }
-        return reverseLL(newhead);
+        return head;
+
 
     
     }
