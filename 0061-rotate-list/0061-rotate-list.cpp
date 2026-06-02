@@ -35,22 +35,28 @@ public:
         if(head->next==nullptr && k==1){
             return head;
         }
-        ListNode* fast=head;
-        k=k%(lenght(head));
-        for(int i=0;i<k;i++){
-            fast=fast->next;
+        // ListNode* fast=head;
+        int n=lenght(head);
+        k=k%n;
+        // for(int i=0;i<k;i++){
+        //     fast=fast->next;
+        // }
+        // ListNode* slow=head;
+        // while(fast!=nullptr && fast->next!=nullptr){
+        //     slow=slow->next;
+        //     fast=fast->next;
+        // }
+        int cnt=n-k-1;
+        ListNode* temp=head;
+        while(cnt>0){
+            cnt--;
+            temp=temp->next;
         }
-        ListNode* slow=head;
-        while(fast!=nullptr && fast->next!=nullptr){
-            slow=slow->next;
-            fast=fast->next;
-        }
-
         ListNode* prevnode=head;
-        ListNode* nextnode=slow->next;
-        slow->next=nullptr;
+        ListNode* nextnode=temp->next;
+        temp->next=nullptr;
         reversell(head);
-        head=slow;
+        head=temp;
         prevnode->next=reversell(nextnode);
 
         return reversell(head);
