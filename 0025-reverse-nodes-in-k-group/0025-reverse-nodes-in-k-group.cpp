@@ -10,9 +10,9 @@
  */
 class Solution {
 public:
-    ListNode* reversell(ListNode* head){
+    ListNode* reversell(ListNode* temp){ // here we doesnot change temp position
         ListNode* prev=nullptr;
-        ListNode* curr=head;
+        ListNode* curr=temp;
         while(curr!=nullptr){
             ListNode* next=curr->next;
             curr->next=prev;
@@ -21,8 +21,7 @@ public:
         }
         return prev;
     }
-
-    ListNode* getkthnode(ListNode* temp, int k){
+    ListNode* getkthnode(ListNode* temp,int k){ // here we change the temp position
         k=k-1;
         while(temp!=nullptr && k>0){
             k--;
@@ -34,7 +33,6 @@ public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* temp=head;
         ListNode* prevnode=nullptr;
-        ListNode* nextnode=nullptr;
 
         while(temp!=nullptr){
             ListNode* kthnode=getkthnode(temp,k);
@@ -44,9 +42,9 @@ public:
                 }
                 break;
             }
-            nextnode=kthnode->next;
+            ListNode* nextnode=kthnode->next;
             kthnode->next=nullptr;
-            
+
             reversell(temp);
             if(temp==head){
                 head=kthnode;
@@ -56,7 +54,6 @@ public:
             }
             prevnode=temp;
             temp=nextnode;
-
         }
         return head;
     }
