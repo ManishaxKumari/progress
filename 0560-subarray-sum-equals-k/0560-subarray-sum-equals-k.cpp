@@ -2,18 +2,16 @@ class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
         int n=nums.size();
-        int sum=0;
+        unordered_map<int,int> mpp; //store frequency
+        mpp[0]=1; 
         int cnt=0;
-        for(int i=0;i<n;i++){
-            sum=nums[i];
-            if(sum==k)cnt++;
-            for(int j=i+1;j<n;j++){
-                sum=sum+nums[j];
-                if(sum==k) cnt++;
-            }
+        int prefix=0;
+        
+        for(auto x : nums){
+            prefix+=x;
+            cnt+=mpp[prefix-k];
+            mpp[prefix]++;
         }
         return cnt;
-
-        
     }
 };
