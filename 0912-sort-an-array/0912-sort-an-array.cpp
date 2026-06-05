@@ -4,7 +4,7 @@ public:
         vector<int>temp;
         int l=low;
         int r=mid+1;
-        while(l<=mid && r<=high){
+        while(l<=mid&& r<=high){
             if(nums[l]<=nums[r]){
                 temp.push_back(nums[l]);
                 l++;
