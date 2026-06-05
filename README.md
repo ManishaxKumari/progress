@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/ManishaxKumari/progress/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/ManishaxKumari/progress/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/ManishaxKumari/progress/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/ManishaxKumari/progress/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/ManishaxKumari/progress/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ManishaxKumari/progress/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ManishaxKumari/progress/tree/master/0503-next-greater-element-ii) |
@@ -607,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0374-guess-number-higher-or-lower](https://github.com/ManishaxKumari/progress/tree/master/0374-guess-number-higher-or-lower) |
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
 | [0441-arranging-coins](https://github.com/ManishaxKumari/progress/tree/master/0441-arranging-coins) |
+| [0493-reverse-pairs](https://github.com/ManishaxKumari/progress/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/ManishaxKumari/progress/tree/master/0704-binary-search) |
 | [0792-binary-search](https://github.com/ManishaxKumari/progress/tree/master/0792-binary-search) |
@@ -669,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ManishaxKumari/progress/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/ManishaxKumari/progress/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/ManishaxKumari/progress/tree/master/0215-kth-largest-element-in-an-array) |
+| [0493-reverse-pairs](https://github.com/ManishaxKumari/progress/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
 ## Recursion
@@ -773,11 +776,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/ManishaxKumari/progress/tree/master/0493-reverse-pairs) |
 | [2434-design-a-number-container-system](https://github.com/ManishaxKumari/progress/tree/master/2434-design-a-number-container-system) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/ManishaxKumari/progress/tree/master/0148-sort-list) |
+| [0493-reverse-pairs](https://github.com/ManishaxKumari/progress/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
 ## Bucket Sort
@@ -913,4 +918,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ManishaxKumari/progress/tree/master/0239-sliding-window-maximum) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/ManishaxKumari/progress/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/ManishaxKumari/progress/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
