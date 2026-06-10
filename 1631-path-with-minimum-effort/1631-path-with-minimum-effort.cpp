@@ -16,7 +16,7 @@ public:
         while(!pq.empty()){
             auto [diff,r,c]=pq.top();
             pq.pop();
-            if(r==m-1 && c==n-1) return diff;
+            //if(r==m-1 && c==n-1) return diff;
             for(int i=0;i<4;i++){
                 int nr=r+dr[i];
                 int nc=c+dc[i];
