@@ -398,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/ManishaxKumari/progress/tree/master/0907-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/ManishaxKumari/progress/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/ManishaxKumari/progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2597-the-number-of-beautiful-subsets](https://github.com/ManishaxKumari/progress/tree/master/2597-the-number-of-beautiful-subsets) |
 ## Backtracking
 |  |
@@ -893,10 +894,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ManishaxKumari/progress/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/ManishaxKumari/progress/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/ManishaxKumari/progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
 | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/ManishaxKumari/progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Data Stream
 |  |
 | ------- |
@@ -906,6 +909,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/ManishaxKumari/progress/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/ManishaxKumari/progress/tree/master/0210-course-schedule-ii) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/ManishaxKumari/progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Doubly-Linked List
 |  |
 | ------- |
