@@ -1,13 +1,11 @@
-//class for doubly linkedlist
 class Node{
 public:
     int key,val;
     Node* next;
     Node* prev;
-    //constructor
     Node(){
-       key=val=-1;
-       next=prev=nullptr; 
+        key=val=-1;
+        next=prev=nullptr;
     }
     Node(int key,int val){
         this->key=key;
@@ -15,34 +13,32 @@ public:
         next=prev=nullptr;
     }
 };
-//class for LRU CACHE
+
 class LRUCache {
 private:
-   map<int,Node*> mpp;
-   int cap;
-   Node* head;
-   Node* tail;
+    map<int,Node*>mpp;
+    int cap;
+    Node* head;
+    Node* tail;
+    void deletenode(Node* node){
+        Node* prevnode=node->prev;
+        Node* nextnode=node->next;
 
-   void deleteNode(Node* node){
-    Node* prevNode=node->prev;
-    Node* nextNode=node->next;
-
-    prevNode->next=nextNode;
-    nextNode->prev=prevNode;
-   } 
-
-   void insertNode(Node* node){
-    Node* nextNode=head->next;
-    head->next=node;
-    nextNode->prev=node;
-    node->prev=head;
-    node->next=nextNode;
-   }
+        prevnode->next=nextnode;
+        nextnode->prev=prevnode;
+    }
+    void insertnode(Node* node){
+        Node* nextnode=head->next;
+        head->next=node;
+        node->prev=head;
+        node->next=nextnode;
+        nextnode->prev=node;
+    }
 
 public:
     LRUCache(int capacity) {
         cap=capacity;
-        mpp.clear(); //each time clear this when you initilize
+        mpp.clear();
         head=new Node();
         tail=new Node();
         head->next=tail;
@@ -50,32 +46,31 @@ public:
     }
     
     int get(int key) {
-        if(mpp.find(key)==mpp.end()){
-            return -1;
-        }
+        if(mpp.find(key)==mpp.end()) return -1;
         Node* node=mpp[key];
         int value=node->val;
-        deleteNode(node);
-        insertNode(node);
+        deletenode(node);
+        insertnode(node);
         return value;
+
     }
     
     void put(int key, int value) {
         if(mpp.find(key)!=mpp.end()){
             Node* node=mpp[key];
             node->val=value;
-            deleteNode(node);
-            insertNode(node);
+            deletenode(node);
+            insertnode(node);
             return;
         }
         if(mpp.size()==cap){
             Node* node=tail->prev;
             mpp.erase(node->key);
-            deleteNode(node);
+            deletenode(node);
         }
-        Node* newNode= new Node(key,value);
-        mpp[key]=newNode;
-        insertNode(newNode);
+        Node* newnode=new Node(key,value);
+        mpp[key]=newnode;
+        insertnode(newnode);
     }
 };
 
