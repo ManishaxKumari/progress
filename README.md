@@ -537,6 +537,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ManishaxKumari/progress/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ManishaxKumari/progress/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
@@ -657,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ManishaxKumari/progress/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ManishaxKumari/progress/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/ManishaxKumari/progress/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ManishaxKumari/progress/tree/master/1765-map-of-highest-peak) |
@@ -886,6 +888,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ManishaxKumari/progress/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ManishaxKumari/progress/tree/master/0547-number-of-provinces) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ManishaxKumari/progress/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
@@ -894,6 +897,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ManishaxKumari/progress/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/ManishaxKumari/progress/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/ManishaxKumari/progress/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ManishaxKumari/progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Shortest Path
 |  |
