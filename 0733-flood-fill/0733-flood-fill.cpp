@@ -5,6 +5,7 @@ public:
     bool valid(int i,int j,int m,int n){
         return (i>=0 && j>=0 && i<m && j<n);
     }
+
     void dfs(vector<vector<int>> &ans,int r,int c,int inicolor,int color){
         int m=ans.size();
         int n=ans[0].size();
@@ -17,6 +18,7 @@ public:
             }
         }
     }
+    
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
         int inicolor=image[sr][sc];
         if(inicolor==color) return image;
