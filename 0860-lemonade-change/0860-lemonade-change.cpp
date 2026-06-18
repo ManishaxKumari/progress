@@ -13,24 +13,19 @@ public:
                     five--;
                     ten++;
                 }
-                else{
-                    return false;
-                }
+                else return false;
             }
             else if(b[i]==20){
-                 if(five && ten){
+                if(five && ten){
                     five--;
                     ten--;
                 }
                 else if(five>=3){
                     five=five-3;
                 }
-                else{
-                    return false;
-                }
+                else return false;
             }
         }
         return true;
-
     }
 };
