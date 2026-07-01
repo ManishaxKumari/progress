@@ -8,7 +8,7 @@ public:
     double myPow(double x, int n) {
         long num=n;
         if(num<0){
-            return 1.0/func(x,-1*num);
+            return (1.0/func(x,-1*num));
         }
         return func(x,num);
     }
