@@ -1,55 +1,49 @@
 class Solution {
 public:
-     bool safe(vector<string>& board, int row, int col) {
-        int r = row, c = col;
-         // Check upper left diagonal
-        while (r >= 0 && c >= 0) {
-            if (board[r][c] == 'Q') return false;
+    bool issafe(vector<string>& board,int row,int col){
+        int r=row;
+        int c=col;
+        //check for top
+        while(r>=0){
+            if(board[r][c]=='Q') return false;
+            r--;
+        }
+        r=row;
+        c=col;
+        //check for upper left diagonal
+        while(r>=0 && c>=0){
+            if(board[r][c]=='Q') return false;
             r--;
             c--;
         }
-        r = row;
-        c = col;
-         // Check upper side
-        while (r >= 0) {
-            if (board[r][c] == 'Q') return false;
-            r--;
-        }
-        r = row;
-        c = col;
-        // Check upper right diagonal
-        while (c < board.size() && r >= 0) {
-            if (board[r][c] == 'Q') return false;
+        r=row;
+        c=col;
+        //check for upper right diagonal
+        while(r>=0 && c>=0){
+            if(board[r][c]=='Q') return false;
             r--;
             c++;
         }
         return true;
     }
-
-    void func(int row,vector<string> &board,vector<vector<string>> &ans,int n){
-        if(row==n){
+    void solve(int row,vector<vector<string>> &ans, vector<string>& board){
+        if(row==board.size()){
             ans.push_back(board);
             return;
         }
-        for(int col=0;col<n;col++){
-            if(safe(board,row,col)){
+        for(int col=0;col<board[0].size();col++){
+            if(issafe(board,row,col)){
                 board[row][col]='Q';
-                func(row+1,board,ans,n);
+                solve(row+1,ans,board);
                 board[row][col]='.';
             }
         }
-    } 
+    }
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ans;
-        vector<string> board;
-        string s="";
-        for(int i=0;i<n;i++){
-            s=s+'.';
-        }
-        for(int i=0;i<n;i++){
-            board.push_back(s);
-        }
-        func(0,board,ans,n);
+        vector<vector<string>>ans;
+        vector<string>board(n,string (n,'.'));
+        solve(0,ans,board);
         return ans;
+
     }
 };
