@@ -1,24 +1,22 @@
 class Solution {
 public:
-    void solve(int index,vector<string> &result,string &temp,string &digits,unordered_map<char,string> &mp){
-        //store all possible string
-        if(index>=digits.length()){
-            result.push_back(temp);
+    unordered_map<char,string>mp;
+    vector<string>ans;
+
+    void solve(string digits,int idx,string temp){
+        if(idx>=digits.size()){
+            ans.push_back(temp);
             return;
         }
-        //take string from map
-        char ch=digits[index];
-        string str=mp[ch];
-        //loop-recursion in str
-        for(int i=0 ;i<str.size();i++){
-            //pick
-            temp.push_back(str[i]);
-            solve(index+1,result,temp,digits,mp);
+        char ch=digits[idx]; //2
+        string s=mp[ch]; //abc
+        for(int i=0;i<s.size();i++){
+            temp.push_back(s[i]);
+            solve(digits,idx+1,temp);
             temp.pop_back();
         }
     }
     vector<string> letterCombinations(string digits) {
-        unordered_map<char,string> mp;
         mp['2']="abc";
         mp['3']="def";
         mp['4']="ghi";
@@ -27,9 +25,8 @@ public:
         mp['7']="pqrs";
         mp['8']="tuv";
         mp['9']="wxyz";
-        vector<string> result;
         string temp="";
-        solve(0,result,temp,digits,mp);
-        return result;
+        solve(digits,0,temp);
+        return ans;
     }
 };
