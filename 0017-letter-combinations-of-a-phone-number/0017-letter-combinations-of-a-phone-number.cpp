@@ -3,7 +3,7 @@ public:
     unordered_map<char,string>mp;
     vector<string>ans;
 
-    void solve(string digits,int idx,string temp){
+    void solve(string digits,int idx,string &temp){
         if(idx>=digits.size()){
             ans.push_back(temp);
             return;
