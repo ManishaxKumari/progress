@@ -1,35 +1,36 @@
 class Solution {
 public:
-     bool func(vector<vector<char> >& b,int i,int j,string s,int k){
-        if(k==s.size()){
-            return true;
-        }
-        if(i<0 || j<0 || i>=b.size() ||j>=b[0].size() || s[k]!= b[i][j]){
+    int dr[4]={-1,0,1,0};
+    int dc[4]={0,1,0,-1};
+    bool solve(vector<vector<char>>& board, string &word,int r,int c,int idx,int m,int n){
+        if(idx==word.size()) return true;
+        if(r<0 || c<0 || r>=m || c>=n || board[r][c]=='$' || board[r][c]!=word[idx]){
             return false;
         }
-        char x=b[i][j];
-        b[i][j]=' ';
+        char temp=board[r][c];
+        board[r][c]='$';
+        for(int i=0;i<4;i++){
+            int nr=r+dr[i];
+            int nc=c+dc[i];
+            if(solve(board,word,nr,nc,idx+1,m,n)) return true;
+        }
+        board[r][c]=temp;
+        return false;
 
-        bool ans=false;
-        ans |= func(b, i + 1, j, s, k + 1);
-        ans |= func(b, i - 1, j, s, k + 1);
-        ans |= func(b, i, j + 1, s, k + 1);
-        ans |= func(b, i, j - 1, s, k + 1);
-        b[i][j] = x;
-        
-        return ans;
     }
     bool exist(vector<vector<char>>& board, string word) {
-        int m=board[0].size();
-        int n=board.size();
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
+        int m=board.size();
+        int n=board[0].size();
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
                 if(board[i][j]==word[0]){
-                    bool ans=func(board,i,j,word,0);
-                    if(ans==true) return true;
+                    if(solve(board,word,i,j,0,m,n)){
+                        return true;
+                    }
                 }
             }
         }
+
         return false;
     }
 };
