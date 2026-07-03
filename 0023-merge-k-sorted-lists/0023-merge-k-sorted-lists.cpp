@@ -16,17 +16,20 @@ public:
 
         for(int i=0;i<lists.size();i++){
             ListNode* head=lists[i];
-            while(head!=nullptr){
-                pq.push({head->val,head});
-                head=head->next;
+            if(head!=nullptr){
+            pq.push({head->val,head});
             }
         }
+
         ListNode* dummy= new ListNode(-1);
         ListNode* temp=dummy;
         while(!pq.empty()){
             auto [val,node]=pq.top();
-            temp->next=node;
             pq.pop();
+            temp->next=node;
+            if(node->next!=nullptr){
+                pq.push({node->next->val,node->next});
+            }
             temp=temp->next;
         }
         return dummy->next;
