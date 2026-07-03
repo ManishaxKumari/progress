@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/ManishaxKumari/progress/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1019-squares-of-a-sorted-array](https://github.com/ManishaxKumari/progress/tree/master/1019-squares-of-a-sorted-array) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
+| [1046-last-stone-weight](https://github.com/ManishaxKumari/progress/tree/master/1046-last-stone-weight) |
 | [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ManishaxKumari/progress/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/ManishaxKumari/progress/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -799,6 +800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/ManishaxKumari/progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0912-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/ManishaxKumari/progress/tree/master/0948-sort-an-array) |
+| [1046-last-stone-weight](https://github.com/ManishaxKumari/progress/tree/master/1046-last-stone-weight) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [2434-design-a-number-container-system](https://github.com/ManishaxKumari/progress/tree/master/2434-design-a-number-container-system) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ManishaxKumari/progress/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
