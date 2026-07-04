@@ -1,28 +1,30 @@
 class Solution {
 public:
-//tabulation
+//space optimization 
     int minPathSum(vector<vector<int>>& grid) {
         int m=grid.size();
         int n=grid[0].size();
-        vector<vector<int>> dp(m,vector<int>(n));
+        vector<int>prev(n,201);
         for(int i=0;i<m;i++){
+            vector<int>temp(n,201);
             for(int j=0;j<n;j++){
                 if(i==0 && j==0){
-                    dp[0][0]=grid[0][0];
+                    temp[j]=grid[0][0];
                     continue;
                 }
                 int up=INT_MAX;
                 int left=INT_MAX;
                 if(i>0){
-                    up=dp[i-1][j];
+                    up=prev[j];
                 }
                 if(j>0){
-                    left=dp[i][j-1];
+                    left=temp[j-1];
                 }
 
-                dp[i][j]=grid[i][j]+min(left,up);
+                temp[j]=grid[i][j]+min(left,up);
             }
+            prev=temp;
         }
-        return dp[m-1][n-1];
+        return prev[n-1];
     }
 };
