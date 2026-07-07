@@ -1,24 +1,28 @@
 class Solution {
 public:
-    bool solve(vector<int>& nums,int idx,int target,vector<vector<int>> &dp){
-        if(target==0) return true;
-        if(idx==0){
-            return target==nums[idx];
-        }
-        if(dp[idx][target]!=-1) return dp[idx][target];
-        bool nottake=solve(nums,idx-1,target,dp);
-        bool take=false;
-        if(nums[idx]<=target){
-            take=solve(nums,idx-1,target-nums[idx],dp);
-        }
-        return dp[idx][target]=nottake || take;
-    }
+    //tabulation
     bool canPartition(vector<int>& nums) {
         int n=nums.size();
         int sum=accumulate(nums.begin(),nums.end(),0);
         if((sum % 2)!=0) return false;
         int target=(sum/2);
-        vector<vector<int>>dp(n,vector<int>(target+1,-1));
-        return solve(nums,n-1,target,dp);
+        vector<vector<int>>dp(n,vector<int>(target+1,0));
+        for(int i=0;i<n;i++){
+            dp[i][0]=1;
+        }
+        if(nums[0]<=target){
+            dp[0][nums[0]]=1;
+        }
+        for(int i=1;i<n;i++){
+            for(int j=1;j<=target;j++){
+                int notake=dp[i-1][j];
+                int take=0;
+                if(nums[i]<=j){
+                    take=dp[i-1][j-nums[i]];
+                }
+                dp[i][j]=take || notake;
+            }
+        }
+        return dp[n-1][target];
     }
 };
