@@ -1,29 +1,24 @@
 class Solution {
 public:
-    bool subset(vector<int>& nums,int sum,int n, vector<vector<int>> &dp){
-         if (sum == 0) return true;
-         if (n <= 0) return false;
-         if (dp[n][sum] != -1){
-            return dp[n][sum];
-         }
-        if(nums[n-1]>sum){
-            return dp[n][sum]=subset(nums,sum,n-1,dp);
+    bool solve(vector<int>& nums,int idx,int target,vector<vector<int>> &dp){
+        if(target==0) return true;
+        if(idx==0){
+            return target==nums[idx];
         }
-        else if(nums[n-1]<=sum){
-            return dp[n][sum]=subset(nums,sum-nums[n-1],n-1,dp) || subset(nums,sum,n-1,dp);
+        if(dp[idx][target]!=-1) return dp[idx][target];
+        bool nottake=solve(nums,idx-1,target,dp);
+        bool take=false;
+        if(nums[idx]<=target){
+            take=solve(nums,idx-1,target-nums[idx],dp);
         }
-        return false;
+        return dp[idx][target]=nottake || take;
     }
-
     bool canPartition(vector<int>& nums) {
-        int sum=accumulate(nums.begin(), nums.end(), 0);
         int n=nums.size();
-        vector<vector<int>> dp(n + 1, vector<int>(sum + 1, -1));
-        if(sum%2 !=0){
-            return false;
-        }
-        else {
-            return subset(nums,sum/2,n,dp);
-        }
+        int sum=accumulate(nums.begin(),nums.end(),0);
+        if((sum % 2)!=0) return false;
+        int target=(sum/2);
+        vector<vector<int>>dp(n,vector<int>(target+1,-1));
+        return solve(nums,n-1,target,dp);
     }
 };
