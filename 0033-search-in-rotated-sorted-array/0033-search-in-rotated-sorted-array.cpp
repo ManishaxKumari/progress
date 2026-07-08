@@ -7,7 +7,7 @@ public:
         while(low<=high){
             int mid=low+(high-low)/2;
             if(nums[mid]==target) return mid;
-            if(nums[low]<nums[mid]){ // left part sorted
+            if(nums[low]<=nums[mid]){ // left part sorted
                 if(nums[low]<=target && target<=nums[mid]){ // exist in sorted part
                     high=mid-1;
                 }
