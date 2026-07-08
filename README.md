@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/ManishaxKumari/progress/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/ManishaxKumari/progress/tree/master/0275-h-index-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/ManishaxKumari/progress/tree/master/0303-range-sum-query-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [0384-shuffle-an-array](https://github.com/ManishaxKumari/progress/tree/master/0384-shuffle-an-array) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/ManishaxKumari/progress/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/ManishaxKumari/progress/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/ManishaxKumari/progress/tree/master/0198-house-robber) |
+| [0300-longest-increasing-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0300-longest-increasing-subsequence) |
 | [0392-is-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0392-is-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/ManishaxKumari/progress/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/ManishaxKumari/progress/tree/master/0416-partition-equal-subset-sum) |
@@ -636,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/ManishaxKumari/progress/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/ManishaxKumari/progress/tree/master/0268-missing-number) |
 | [0275-h-index-ii](https://github.com/ManishaxKumari/progress/tree/master/0275-h-index-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/ManishaxKumari/progress/tree/master/0300-longest-increasing-subsequence) |
 | [0349-intersection-of-two-arrays](https://github.com/ManishaxKumari/progress/tree/master/0349-intersection-of-two-arrays) |
 | [0367-valid-perfect-square](https://github.com/ManishaxKumari/progress/tree/master/0367-valid-perfect-square) |
 | [0374-guess-number-higher-or-lower](https://github.com/ManishaxKumari/progress/tree/master/0374-guess-number-higher-or-lower) |
