@@ -12,7 +12,7 @@ public:
     double myPow(double x, int n) {
         long long num=n;
         if(num<0){
-            return solve(1/x,-1*num);
+            return solve(1.0/x,-1*num);
         }
         else{
             return solve(x,num);
