@@ -1,24 +1,21 @@
 class Solution {
 public:
-    void func(vector<int>& nums,int index,int n,vector<vector<int>> &ans,vector<int> &arr){
-        if(index==n){
-            ans.push_back(arr);
+    void solve(vector<int>& nums,vector<vector<int>> &ans,vector<int> &v,int idx){
+        if(idx>=nums.size()){
+            ans.push_back(v);
             return;
         }
         //take
-        arr.push_back(nums[index]);
-        func(nums,index+1,n,ans,arr);
-        //backtrack
-        arr.pop_back();
-        //not take
-        func(nums,index+1,n,ans,arr);
-        
+        v.push_back(nums[idx]);
+        solve(nums,ans,v,idx+1);
+        v.pop_back();
+        //no take
+        solve(nums,ans,v,idx+1);
     }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
-        vector<int>arr;
-        int n=nums.size();
-        func(nums,0,n,ans,arr);
+        vector<int>v;
+        solve(nums,ans,v,0);
         return ans;
     }
 };
