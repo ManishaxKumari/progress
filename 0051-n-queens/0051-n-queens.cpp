@@ -1,39 +1,48 @@
 class Solution {
 public:
-    unordered_set<int>cols;
-    unordered_set<int>Ldia;
-    unordered_set<int>Rdia;
-    void solve(int row,vector<vector<string>> &ans, vector<string>& board){
+    bool issafe(int row,int col,vector<string> &board){
+        int r=row;
+        int c=col;
+        //top
+        while(r>=0){
+            if(board[r][c]=='Q') return false;
+            r--;
+        }
+        r=row;
+        c=col;
+        //upper right dia
+        while(r>=0 && c<board.size()){
+            if(board[r][c]=='Q') return false;
+            r--;
+            c++;         
+        }
+        r=row;
+        c=col;
+        //upper left dia
+        while(r>=0 && c>=0){
+            if(board[r][c]=='Q') return false;
+            r--;
+            c--;          
+        }
+        return true;
+    }
+    void solve(vector<vector<string>> &ans,vector<string> &board,int row){
         if(row==board.size()){
             ans.push_back(board);
             return;
         }
-        for(int col=0;col<board[0].size();col++){
-            int LeftDiaConst= row+col;
-            int rightDiaConst=row-col;
-
-            if(cols.find(col)!=cols.end() || Ldia.find(LeftDiaConst)!=Ldia.end()||Rdia.find(rightDiaConst)!=Rdia.end()) continue;
-
-            cols.insert(col);
-            Ldia.insert(LeftDiaConst);
-            Rdia.insert(rightDiaConst);
-            board[row][col]='Q';
-
-            solve(row+1,ans,board);
-
-            board[row][col]='.';
-            cols.erase(col);
-            Ldia.erase(LeftDiaConst);
-            Rdia.erase(rightDiaConst);           
-
+        for(int col=0;col<board.size();col++){
+            if(issafe(row,col,board)){
+                board[row][col]='Q';
+                solve(ans,board,row+1);
+                board[row][col]='.';
+            }
         }
-    }
+    }   
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>>ans;
-        vector<string>board(n,string (n,'.'));
-
-        solve(0,ans,board);
+        vector<vector<string>> ans;
+        vector<string>board(n,string(n,'.'));
+        solve(ans,board,0);
         return ans;
-
     }
 };
