@@ -1,32 +1,35 @@
 class Solution {
 public:
-    unordered_map<char,string>mp;
-    vector<string>ans;
+    vector<string> ans;
+    map<char,string>mpp;
 
-    void solve(string digits,int idx,string &temp){
+    void solve(string digits,int idx,string str){
         if(idx>=digits.size()){
-            ans.push_back(temp);
+            ans.push_back(str);
             return;
         }
-        char ch=digits[idx]; //2
-        string s=mp[ch]; //abc
+        char ch=digits[idx];
+        string s=mpp[ch];
         for(int i=0;i<s.size();i++){
-            temp.push_back(s[i]);
-            solve(digits,idx+1,temp);
-            temp.pop_back();
+            str.push_back(s[i]);
+            solve(digits,idx+1,str);
+            str.pop_back();
         }
     }
+
     vector<string> letterCombinations(string digits) {
-        mp['2']="abc";
-        mp['3']="def";
-        mp['4']="ghi";
-        mp['5']="jkl";
-        mp['6']="mno";
-        mp['7']="pqrs";
-        mp['8']="tuv";
-        mp['9']="wxyz";
-        string temp="";
-        solve(digits,0,temp);
+        mpp['2']="abc";
+        mpp['3']="def";
+        mpp['4']="ghi";
+        mpp['5']="jkl";
+        mpp['6']="mno";
+        mpp['7']="pqrs";
+        mpp['8']="tuv";
+        mpp['9']="wxyz";
+
+        string str="";
+        solve(digits,0,str);
         return ans;
+
     }
 };
