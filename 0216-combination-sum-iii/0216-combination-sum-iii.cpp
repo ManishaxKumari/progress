@@ -8,7 +8,7 @@ public:
             return;
         }
         for(int i=idx;i<=9;i++){
-            if(k>0){
+            if(k>0 && i<=n){
                 v.push_back(i);
                 solve(k-1,n-i,i+1);
                 v.pop_back();
