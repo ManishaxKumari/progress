@@ -1,8 +1,10 @@
 class Solution {
 public:
-    bool ispalindrome(string &s,int idx,int i){
-        int l=idx;
-        int r=i;
+    vector<vector<string>> ans;
+    vector<string>v;
+    bool ispalindrome(string s){
+        int l=0;
+        int r =s.size()-1;
         while(l<r){
             if(s[l]!=s[r]) return false;
             l++;
@@ -10,23 +12,24 @@ public:
         }
         return true;
     }
-    void solve(string &s,vector<vector<string>> &ans,vector<string> &temp,int idx){
+    void solve(string s,int idx,string str){
+        //base case
         if(idx>=s.size()){
-            ans.push_back(temp);
-            return;
+            ans.push_back(v);
         }
         for(int i=idx;i<s.size();i++){
-            if(ispalindrome(s,idx,i)){
-                temp.push_back(s.substr(idx,i-idx+1));
-                solve(s,ans,temp,i+1);
-                temp.pop_back();
+            string sub=s.substr(idx,i-idx+1);
+            if(ispalindrome(sub)){
+                v.push_back(sub);
+                solve(s,i+1,str);
+                v.pop_back();
             }
         }
+
     }
     vector<vector<string>> partition(string s) {
-        vector<vector<string>>ans; //store the final answer
-        vector<string> temp; // to make string
-        solve(s,ans,temp,0);
+        string str="";
+        solve(s,0,str);
         return ans;
     }
 };
