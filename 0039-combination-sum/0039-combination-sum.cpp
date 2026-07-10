@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> ans;
+    vector<vector<int>>ans;
     vector<int>v;
     void solve(vector<int>& candidates, int target,int idx){
         if(target==0){
@@ -12,7 +12,6 @@ public:
         solve(candidates,target-candidates[idx],idx);
         v.pop_back();
         solve(candidates,target,idx-1);
-    
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         solve(candidates,target,candidates.size()-1);
