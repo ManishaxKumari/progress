@@ -1,27 +1,24 @@
 class Solution {
 public:
-    int cnt=0;
-    bool ispalindromic( string &s , int l,int r){
-        while(l<r){
-            if(s[l]!=s[r]) return false;
-            l++;
-            r--;
+    bool ispalindrome(string &s ,int l,int r,vector<vector<int>> &dp){
+        if(l>r) return true;
+        if(dp[l][r]!=-1) return dp[l][r];
+        if(s[l]==s[r]){
+            return dp[l][r]=ispalindrome(s,l+1,r-1,dp);
         }
-        return true;
-    }
-
-    void solve(string &s, int idx) {
-        if(idx == s.size()) return;
-        for(int i = idx; i < s.size(); i++) {
-            if(ispalindromic(s,idx,i)){
-                cnt++;
-            }      
-        }
-
-        solve(s, idx + 1);
+        return dp[l][r]= false;
     }
     int countSubstrings(string s) {
-        solve(s,0);
+        int n=s.size();
+        int cnt=0;
+        vector<vector<int>>dp(n,vector<int>(n,-1));
+        for(int i=0;i<n;i++){
+            for(int j=i;j<n;j++){
+                if(ispalindrome(s,i,j,dp)){
+                    cnt++;
+                }
+            }
+        }
         return cnt;
     }
 };
