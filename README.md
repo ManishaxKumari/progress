@@ -288,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/ManishaxKumari/progress/tree/master/0721-accounts-merge) |
 | [0784-letter-case-permutation](https://github.com/ManishaxKumari/progress/tree/master/0784-letter-case-permutation) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/ManishaxKumari/progress/tree/master/1058-lexicographically-smallest-equivalent-string) |
+| [1092-shortest-common-supersequence](https://github.com/ManishaxKumari/progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ManishaxKumari/progress/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ManishaxKumari/progress/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/ManishaxKumari/progress/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/ManishaxKumari/progress/tree/master/0907-sum-of-subarray-minimums) |
 | [0931-minimum-falling-path-sum](https://github.com/ManishaxKumari/progress/tree/master/0931-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/ManishaxKumari/progress/tree/master/1013-fibonacci-number) |
+| [1092-shortest-common-supersequence](https://github.com/ManishaxKumari/progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ManishaxKumari/progress/tree/master/1143-longest-common-subsequence) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/ManishaxKumari/progress/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ManishaxKumari/progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
