@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/ManishaxKumari/progress/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/ManishaxKumari/progress/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ManishaxKumari/progress/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/ManishaxKumari/progress/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ManishaxKumari/progress/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ManishaxKumari/progress/tree/master/1765-map-of-highest-peak) |
@@ -582,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ManishaxKumari/progress/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/ManishaxKumari/progress/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ManishaxKumari/progress/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
@@ -709,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ManishaxKumari/progress/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ManishaxKumari/progress/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/ManishaxKumari/progress/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/ManishaxKumari/progress/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ManishaxKumari/progress/tree/master/1765-map-of-highest-peak) |
 | [2121-find-if-path-exists-in-graph](https://github.com/ManishaxKumari/progress/tree/master/2121-find-if-path-exists-in-graph) |
@@ -767,6 +770,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ManishaxKumari/progress/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/ManishaxKumari/progress/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/ManishaxKumari/progress/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ManishaxKumari/progress/tree/master/1765-map-of-highest-peak) |
 | [2737-row-with-maximum-ones](https://github.com/ManishaxKumari/progress/tree/master/2737-row-with-maximum-ones) |
@@ -956,6 +960,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/ManishaxKumari/progress/tree/master/0827-making-a-large-island) |
 | [1020-number-of-enclaves](https://github.com/ManishaxKumari/progress/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ManishaxKumari/progress/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1559-detect-cycles-in-2d-grid](https://github.com/ManishaxKumari/progress/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1631-path-with-minimum-effort](https://github.com/ManishaxKumari/progress/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
