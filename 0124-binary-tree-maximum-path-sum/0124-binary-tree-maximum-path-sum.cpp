@@ -15,12 +15,10 @@ public:
         if(root==nullptr) return 0;
         int left=solve(root->left,maxdia);
         int right=solve(root->right,maxdia);
-
-        int whole=left+right+root->val;
-        int onlyoneside=max(left,right)+root->val;
-        int onlyroot= root->val;
-        maxdia=max({whole,onlyoneside,onlyroot,maxdia});
-        return max(onlyroot,onlyoneside);
+        if(left<0) left=0;
+        if(right<0) right=0;
+        maxdia=max(maxdia,left+right+root->val);
+        return max(left,right)+root->val;
     }
     int maxPathSum(TreeNode* root) {
         int maxdia=INT_MIN;
