@@ -11,16 +11,20 @@
  */
 class Solution {
 public:
-    int solve(TreeNode* root, int &maxsum){
+    int solve(TreeNode* root,int &maxdia){
         if(root==nullptr) return 0;
-        int left=max(0,solve(root->left,maxsum));
-        int right=max(0,solve(root->right,maxsum));
-        maxsum=max(maxsum,left+right+root->val);
-        return root->val + max(left,right);
+        int left=solve(root->left,maxdia);
+        int right=solve(root->right,maxdia);
+
+        int whole=left+right+root->val;
+        int onlyoneside=max(left,right)+root->val;
+        int onlyroot= root->val;
+        maxdia=max({whole,onlyoneside,onlyroot,maxdia});
+        return max(onlyroot,onlyoneside);
     }
     int maxPathSum(TreeNode* root) {
-        int maxsum=INT_MIN;
-        solve(root,maxsum);
-        return maxsum;
+        int maxdia=INT_MIN;
+        solve(root,maxdia);
+        return maxdia;
     }
 };
