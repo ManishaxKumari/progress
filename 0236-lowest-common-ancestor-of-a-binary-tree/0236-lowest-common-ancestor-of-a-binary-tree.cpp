@@ -10,14 +10,11 @@
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        //BASE CASE
-        if(root==nullptr) return nullptr; 
-        if(root==p || root==q) return root;
-        //POSTORDER - for decide lca we need left and right answer both 
-        TreeNode* leftside=lowestCommonAncestor(root->left,p,q);
-        TreeNode* rightside=lowestCommonAncestor(root->right,p,q);
-        //PROCESS
-        if(leftside!=nullptr && rightside!=nullptr) return root; // if you found both return root -> lca
-        return (leftside!=nullptr) ? leftside : rightside; // if only found one then return what found
+        if(root==nullptr) return nullptr;
+        if(p==root || q==root) return root;
+        TreeNode* left=lowestCommonAncestor(root->left,p,q);
+        TreeNode* right=lowestCommonAncestor(root->right,p,q);
+        if(left!=nullptr && right!=nullptr) return root;
+        return (left!=nullptr) ? left : right;
     }
 };
