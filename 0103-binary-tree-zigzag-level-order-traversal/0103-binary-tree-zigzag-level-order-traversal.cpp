@@ -19,16 +19,14 @@ public:
         bool LTR=true;
         while(!q.empty()){
             int size=q.size();
-            vector<int> level;
+            vector<int> level(size);
             for(int i=0;i<size;i++){
                 TreeNode* node=q.front();
                 q.pop();
-                level.push_back(node->val);
+                int index=LTR? i : size-i-1;
+                level[index]=node->val;
                 if(node->left!=nullptr) q.push(node->left);
                 if(node->right!=nullptr) q.push(node->right);
-            }
-            if(LTR==false){
-                reverse(level.begin(),level.end());
             }
             ans.push_back(level);
             LTR=!LTR;
